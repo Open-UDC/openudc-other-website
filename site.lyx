@@ -365,28 +365,24 @@ Get sources
 git clone https://github.com/Open-UDC/lud
 \end_layout
 
-\begin_layout Standard
-Install
-\end_layout
-
 \begin_layout Quote
 cd lud
 \end_layout
 
+\begin_layout Standard
+Run as root
+\end_layout
+
 \begin_layout Quote
-make install
+sudo make install
 \end_layout
 
 \begin_layout Standard
-Now you can launch lud main menu:
+Now run as normal user:
 \end_layout
 
 \begin_layout Quote
 lud.sh
-\end_layout
-
-\begin_layout Standard
-Now you can choose in the menu : 
 \end_layout
 
 \begin_layout Itemize
@@ -401,13 +397,13 @@ When your certificate is generated, it shows a menu.
 \end_layout
 
 \begin_layout Itemize
-Launching the programm "seahorse" you can check your unique UDID2-OpenUDC
- key is on the window "My personnal keys".
- 
+Choose 1 to share your KEY with an OpenUDC community Node 
 \end_layout
 
-\begin_layout Itemize
-Share your KEY with an OpenUDC community Node 
+\begin_layout Standard
+Launching the program "seahorse" you can check your unique UDID2-OpenUDC
+ key is on the window "My personals keys".
+ 
 \end_layout
 
 \begin_layout Subsubsection

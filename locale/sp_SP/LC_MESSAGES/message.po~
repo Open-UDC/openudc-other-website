@@ -5,34 +5,33 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.1\n"
+"Project-Id-Version: openudc-website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-26 15:48+0100\n"
-"PO-Revision-Date: 2013-11-22 17:37+0100\n"
+"POT-Creation-Date: 2013-11-24 15:18+0100\n"
+"PO-Revision-Date: 2013-11-22 17:34+0100\n"
 "Last-Translator: Pierro <openz@laposte.net>\n"
 "Language-Team: \n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: French\n"
-"X-Poedit-Country: FRANCE\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
 
 #: text/0.php:56
 #, php-format
 msgid "A Network nodes"
-msgstr "Un réseau de nœuds"
+msgstr ""
 
 #: text/0.php:48 text/0.php:85
 #, php-format
 msgid "A gives money to B (mode1 transaction)"
-msgstr "A donne de l'argent à B (transaction mode1)"
+msgstr ""
 
 #: text/0.php:87
 #, php-format
 msgid "A gives money to B (mode2 transaction)"
-msgstr "A donne de l'argent à B (transaction mode2)"
+msgstr ""
 
 #: text/0.php:37
 #, php-format
@@ -57,7 +56,7 @@ msgstr ""
 #: text/0.php:31
 #, php-format
 msgid "A web of trust in a human community"
-msgstr "Une toile de confiance dans une communauté humaine"
+msgstr ""
 
 #: text/0.php:77
 #, php-format
@@ -67,7 +66,7 @@ msgstr ""
 #: text/3.php:23
 #, php-format
 msgid "After you can:"
-msgstr "Après vous pouvez:"
+msgstr ""
 
 #: text/4.php:85
 #, php-format
@@ -112,14 +111,9 @@ msgstr ""
 msgid "Chat-room how-to"
 msgstr ""
 
-#: text/1.php:80
+#: text/1.php:83
 #, php-format
 msgid "Check that /usr/local/var/ludd is created (show hidden file to see it) "
-msgstr "Vérifier si le répertoire /usr/local/var/ludd est crée"
-
-#: text/1.php:43
-#, php-format
-msgid "Choose 1 to share your KEY with an OpenUDC community Node "
 msgstr ""
 
 #: text/0.php:90
@@ -129,11 +123,11 @@ msgstr ""
 
 #: text/3_conf.php:3
 msgid "Contact OpenUDC team"
-msgstr "Contacter l'équipe OpenUDC"
+msgstr ""
 
 #: text/3_conf.php:4
 msgid "Contact and follow the team"
-msgstr "Contacter et suivre l'équipe"
+msgstr ""
 
 #: text/3.php:3
 #, php-format
@@ -148,7 +142,7 @@ msgstr ""
 #: text/0.php:11
 #, php-format
 msgid "Convergence of skills OpenUDC"
-msgstr "Convergence de compétences OpenUDC"
+msgstr ""
 
 #: text/4.php:10
 #, php-format
@@ -192,7 +186,7 @@ msgstr ""
 
 #: text/4_conf.php:3
 msgid "FAQ OpenUDC"
-msgstr "FAQ OpenUDC"
+msgstr ""
 
 #: text/0.php:14
 #, php-format
@@ -211,10 +205,10 @@ msgid ""
 "http://node1.openudc.org:11371/udid2/ "
 msgstr ""
 
-#: text/1.php:15 text/1.php:59
+#: text/1.php:15 text/1.php:62
 #, php-format
 msgid "Get sources"
-msgstr "Obtenir les sources"
+msgstr ""
 
 #: text/2.php:12
 #, php-format
@@ -229,7 +223,7 @@ msgstr ""
 
 #: text/1_conf.php:4
 msgid "How to install OpenUDC"
-msgstr "Installer OpenUDC"
+msgstr ""
 
 #: text/0.php:29
 #, php-format
@@ -252,26 +246,26 @@ msgid ""
 "the problem is due to that non-free money model."
 msgstr ""
 
-#: text/1.php:3 text/1.php:65
+#: text/1.php:3 text/1.php:21 text/1.php:68
 #, php-format
 msgid "Install"
-msgstr "Installer"
+msgstr ""
 
 #: text/1.php:12
 #, php-format
 msgid "Install Lud: OpenUDC Client"
-msgstr "Installer  Lud: OpenUDC Client"
+msgstr ""
 
 #: text/1_conf.php:3
 msgid "Install OpenUDC"
-msgstr "Installer OpenUDC"
+msgstr ""
 
-#: text/1.php:50
+#: text/1.php:53
 #, php-format
 msgid "Install OpenUDC Node (ludd)"
-msgstr "Installer OpenUDC Node (ludd)"
+msgstr ""
 
-#: text/1.php:37
+#: text/1.php:40
 #, php-format
 msgid ""
 "It asks you informations (place of birth, date of birth, last name, first "
@@ -297,11 +291,11 @@ msgstr ""
 msgid "LUDD is the free software that run an OpenUDC P2P node."
 msgstr ""
 
-#: text/1.php:47
+#: text/1.php:46
 #, php-format
 msgid ""
-"Launching the program \"seahorse\" you can check your unique UDID2-OpenUDC "
-"key is on the window \"My personals keys\". "
+"Launching the programm \"seahorse\" you can check your unique UDID2-OpenUDC "
+"key is on the window \"My personnal keys\". "
 msgstr ""
 
 #: text/4.php:26
@@ -340,9 +334,14 @@ msgid ""
 "ways than the OpenUDC system itself). "
 msgstr ""
 
+#: text/1.php:36
+#, php-format
+msgid "Now you can choose in the menu : "
+msgstr ""
+
 #: text/1.php:30
 #, php-format
-msgid "Now run as normal user:"
+msgid "Now you can launch lud main menu:"
 msgstr ""
 
 #: text/2.php:9
@@ -351,9 +350,8 @@ msgid "Open-UDC repository"
 msgstr ""
 
 #: text/0_conf.php:4
-#, fuzzy
 msgid "OpenUDC"
-msgstr "FAQ OpenUDC"
+msgstr ""
 
 #: text/0.php:26
 #, php-format
@@ -384,10 +382,10 @@ msgstr ""
 msgid "OpenUDC project"
 msgstr ""
 
-#: text/1.php:53
+#: text/1.php:56
 #, php-format
 msgid "Prepare depends"
-msgstr "Préparez les dépendances"
+msgstr ""
 
 #: text/3.php:40
 #, php-format
@@ -395,12 +393,10 @@ msgid ""
 "Recommended XMPP clients: <a href=\"http://gajim.org/\">Gajim</a>, <a href="
 "\"http://psi-plus.com/\">PSI+</a>."
 msgstr ""
-"Clients XMPP recommandés: <a href=\"http://gajim.org/\">Gajim</a>, <a href="
-"\"http://psi-plus.com/\">PSI+</a>."
 
-#: text/1.php:24
+#: text/1.php:49
 #, php-format
-msgid "Run as root"
+msgid "Share your KEY with an OpenUDC community Node "
 msgstr ""
 
 #: text/4.php:88
@@ -476,7 +472,7 @@ msgstr ""
 #: text/1.php:6
 #, php-format
 msgid "To get all sources"
-msgstr "Obtenir toutes les sources"
+msgstr ""
 
 #: text/0.php:80
 #, php-format
@@ -488,10 +484,10 @@ msgid ""
 "OpenUDC information named UDID2 information. "
 msgstr ""
 
-#: text/1.php:86
+#: text/1.php:89
 #, php-format
 msgid "Type the command :"
-msgstr "Tapez la commande:"
+msgstr ""
 
 #: text/4.php:53
 #, php-format
@@ -541,7 +537,7 @@ msgid ""
 "automatically calculated."
 msgstr ""
 
-#: text/1.php:40
+#: text/1.php:43
 #, php-format
 msgid "When your certificate is generated, it shows a menu. "
 msgstr ""
@@ -580,21 +576,19 @@ msgstr ""
 msgid "You are in."
 msgstr ""
 
-#: text/1.php:98
+#: text/1.php:101
 #, php-format
 msgid ""
 "You can always retrying the process of compiling / installing with the "
 "commands :"
-msgstr "Vous pouvez réessayer l'installation:"
+msgstr ""
 
-#: text/1.php:95
+#: text/1.php:98
 #, php-format
 msgid ""
 "You can check your local adress : http://127.0.0.1:11371/ and so access to "
 "your OpenUDC LUDD node "
 msgstr ""
-"Testez sur votre explorateur l'adresse :  http://127.0.0.1:11371/ et vous "
-"accédez au noeud OpenUDC"
 
 #: text/3.php:20
 #, php-format
@@ -674,20 +668,4 @@ msgstr ""
 #: text/3.php:30
 #, php-format
 msgid "using the Jabber compatible web-client Jappix;"
-msgstr "utiliser le client Web Jappix;"
-
-#~ msgid "Contact"
-#~ msgstr "Contact"
-
-#~ msgid "Contribute"
-#~ msgstr "Contribuer"
-
-#~ msgid "Home"
-#~ msgstr "Accueil "
-
-#, fuzzy
-#~ msgid "Project"
-#~ msgstr "Le projet"
-
-#~ msgid "Project2"
-#~ msgstr "Le projet"
+msgstr ""

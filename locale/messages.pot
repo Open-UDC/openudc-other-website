@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-19 11:53+0100\n"
+"POT-Creation-Date: 2013-11-26 15:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -266,7 +266,7 @@ msgstr ""
 msgid "install,openUDC,free money"
 msgstr ""
 
-#: text/1.php:3 text/1.php:21 text/1.php:68
+#: text/1.php:3 text/1.php:65
 #, php-format
 msgid "Install"
 msgstr ""
@@ -281,22 +281,22 @@ msgstr ""
 msgid "Install Lud: OpenUDC Client"
 msgstr ""
 
-#: text/1.php:15 text/1.php:62
+#: text/1.php:15 text/1.php:59
 #, php-format
 msgid "Get sources"
 msgstr ""
 
+#: text/1.php:24
+#, php-format
+msgid "Run as root"
+msgstr ""
+
 #: text/1.php:30
 #, php-format
-msgid "Now you can launch lud main menu:"
+msgid "Now run as normal user:"
 msgstr ""
 
-#: text/1.php:36
-#, php-format
-msgid "Now you can choose in the menu : "
-msgstr ""
-
-#: text/1.php:40
+#: text/1.php:37
 #, php-format
 msgid ""
 "It asks you informations (place of birth, date of birth, last name, first "
@@ -304,51 +304,51 @@ msgid ""
 "OpenGPG/OpenUDC key ID."
 msgstr ""
 
-#: text/1.php:43
+#: text/1.php:40
 #, php-format
 msgid "When your certificate is generated, it shows a menu. "
 msgstr ""
 
-#: text/1.php:46
+#: text/1.php:43
+#, php-format
+msgid "Choose 1 to share your KEY with an OpenUDC community Node "
+msgstr ""
+
+#: text/1.php:47
 #, php-format
 msgid ""
-"Launching the programm \"seahorse\" you can check your unique UDID2-OpenUDC "
-"key is on the window \"My personnal keys\". "
+"Launching the program \"seahorse\" you can check your unique UDID2-OpenUDC "
+"key is on the window \"My personals keys\". "
 msgstr ""
 
-#: text/1.php:49
-#, php-format
-msgid "Share your KEY with an OpenUDC community Node "
-msgstr ""
-
-#: text/1.php:53
+#: text/1.php:50
 #, php-format
 msgid "Install OpenUDC Node (ludd)"
 msgstr ""
 
-#: text/1.php:56
+#: text/1.php:53
 #, php-format
 msgid "Prepare depends"
 msgstr ""
 
-#: text/1.php:83
+#: text/1.php:80
 #, php-format
 msgid "Check that /usr/local/var/ludd is created (show hidden file to see it) "
 msgstr ""
 
-#: text/1.php:89
+#: text/1.php:86
 #, php-format
 msgid "Type the command :"
 msgstr ""
 
-#: text/1.php:98
+#: text/1.php:95
 #, php-format
 msgid ""
 "You can check your local adress : http://127.0.0.1:11371/ and so access to "
 "your OpenUDC LUDD node "
 msgstr ""
 
-#: text/1.php:101
+#: text/1.php:98
 #, php-format
 msgid ""
 "You can always retrying the process of compiling / installing with the "
