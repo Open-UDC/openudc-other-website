@@ -3,7 +3,7 @@ print "<h2>";
 printf(_("Contribute to OpenUDC"));
 print "</h2>";
 print "<p>";
-printf(_("The project is still young, we need a lot of contributors for improving it. Feel free to join our developer and user community in using the following ways."));
+printf(_("The project is still young, we need a lot of contributors for improving it. Feel free to join our developer and user community."));
 print "</p>";
 print "<h3>";
 printf(_("Open-UDC repository"));

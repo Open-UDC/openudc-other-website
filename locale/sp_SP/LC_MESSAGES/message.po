@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openudc-website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-26 15:48+0100\n"
+"POT-Creation-Date: 2013-11-30 14:15+0100\n"
 "PO-Revision-Date: 2013-11-22 17:34+0100\n"
 "Last-Translator: Pierro <openz@laposte.net>\n"
 "Language-Team: \n"
@@ -152,9 +152,9 @@ msgstr ""
 #: text/4.php:10
 #, php-format
 msgid ""
-"Create a OpenPGP key with an UDID2 OpenUDC comment. (see GLUD at <a href ="
-"\"http://node1.openudc.org:11371/udid2/\" >http://node1.openudc.org:11371/"
-"udid2/</a> )"
+"Create a OpenPGP key with the Open-UDC command line client. Also you can use "
+"\"gpg\" with a special <a href =\"http://node1.openudc.org:11371/udid2/\" "
+">OpenUDC UDID2</a>."
 msgstr ""
 
 #: text/0.php:62
@@ -274,8 +274,7 @@ msgstr ""
 #, php-format
 msgid ""
 "It asks you informations (place of birth, date of birth, last name, first "
-"name) in order to generate a UDID2 certificate needed to be with you unique "
-"OpenGPG/OpenUDC key ID."
+"name) in order to generate an unique ID for your key."
 msgstr ""
 
 #: text/3.php:17
@@ -298,9 +297,7 @@ msgstr ""
 
 #: text/1.php:47
 #, php-format
-msgid ""
-"Launching the program \"seahorse\" you can check your unique UDID2-OpenUDC "
-"key is on the window \"My personals keys\". "
+msgid "Launching the program \"seahorse\" you can see your key."
 msgstr ""
 
 #: text/4.php:26
@@ -347,10 +344,6 @@ msgstr ""
 #: text/2.php:9
 #, php-format
 msgid "Open-UDC repository"
-msgstr ""
-
-#: text/0_conf.php:4
-msgid "OpenUDC"
 msgstr ""
 
 #: text/0.php:26
@@ -418,6 +411,10 @@ msgstr ""
 msgid "Technical choices "
 msgstr ""
 
+#: text/0_conf.php:4
+msgid "The OpenUDC free money"
+msgstr ""
+
 #: text/0.php:34
 #, php-format
 msgid ""
@@ -439,8 +436,7 @@ msgstr ""
 #, php-format
 msgid ""
 "The project is still young, we need a lot of contributors for improving it. "
-"Feel free to join our developer and user community in using the following "
-"ways."
+"Feel free to join our developer and user community."
 msgstr ""
 
 #: text/4.php:49
@@ -539,7 +535,7 @@ msgstr ""
 
 #: text/1.php:40
 #, php-format
-msgid "When your certificate is generated, it shows a menu. "
+msgid "When your key is generated, it shows a menu. "
 msgstr ""
 
 #: text/4.php:60
@@ -636,7 +632,9 @@ msgid ""
 msgstr ""
 
 #: text/2_conf.php:5
-msgid "contribute,developer"
+msgid ""
+"contribute,contributor,open-source,github,developer,develop,program,"
+"programmer"
 msgstr ""
 
 #: text/3_conf.php:5
@@ -657,7 +655,7 @@ msgid "install,openUDC,free money"
 msgstr ""
 
 #: text/0_conf.php:5
-msgid "monnaie,free money,universal dividend money system"
+msgid "money,free money,digital money,universal dividend money,bitcoin"
 msgstr ""
 
 #: text/3.php:33

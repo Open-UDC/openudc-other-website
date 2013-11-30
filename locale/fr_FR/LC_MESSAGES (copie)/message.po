@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Openz <openz@laposte.net>, 2013
 # Sly <waxsly@hotmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: openudc-other-website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-26 15:48+0100\n"
-"PO-Revision-Date: 2013-11-29 23:14+0100\n"
+"POT-Creation-Date: 2013-11-30 14:15+0100\n"
+"PO-Revision-Date: 2013-11-30 14:38+0100\n"
 "Last-Translator: Pierro <openz@laposte.net>\n"
 "Language-Team: French (France) (http://www.transifex.com/projects/p/openudc-other-website/language/fr_FR/)\n"
 "MIME-Version: 1.0\n"
@@ -25,11 +26,11 @@ msgid "OpenUDC project"
 msgstr "Projet OpenUDC"
 
 #: text/0_conf.php:4
-msgid "OpenUDC"
-msgstr ""
+msgid "The OpenUDC free money"
+msgstr "La monnaie libre OpenUDC"
 
 #: text/0_conf.php:5
-msgid "monnaie,free money,universal dividend money system"
+msgid "money,free money,digital money,universal dividend money,bitcoin"
 msgstr ""
 
 #: text/0.php:6
@@ -40,7 +41,7 @@ msgstr "OpenUDC est un ensemble de logiciels libres, élaborés pour créer un s
 #: text/0.php:9
 #, php-format
 msgid "The softwares are under <a title=\"WikiPedia\" href=\"http://en.wikipedia.org/wiki/AGPL\">AGPL</a> et <a title=\"WikiPedia\" href=\"http://en.wikipedia.org/wiki/LGPL\">LGPL</a>."
-msgstr ""
+msgstr "Les programmes sont sous licences <a title=\"WikiPedia\" href=\"http://en.wikipedia.org/wiki/AGPL\">AGPL</a> et <a title=\"WikiPedia\" href=\"http://en.wikipedia.org/wiki/LGPL\">LGPL</a>."
 
 #: text/0.php:11
 #, php-format
@@ -225,31 +226,31 @@ msgstr "Obtenir les sources"
 #: text/1.php:24
 #, php-format
 msgid "Run as root"
-msgstr ""
+msgstr "Lancer comme super-utilisateur"
 
 #: text/1.php:30
 #, php-format
 msgid "Now run as normal user:"
-msgstr ""
+msgstr "Maintenant lancer comme simple utilisateur"
 
 #: text/1.php:37
 #, php-format
-msgid "It asks you informations (place of birth, date of birth, last name, first name) in order to generate a UDID2 certificate needed to be with you unique OpenGPG/OpenUDC key ID."
+msgid "It asks you informations (place of birth, date of birth, last name, first name) in order to generate an unique ID for your key."
 msgstr ""
 
 #: text/1.php:40
 #, php-format
-msgid "When your certificate is generated, it shows a menu. "
+msgid "When your key is generated, it shows a menu. "
 msgstr ""
 
 #: text/1.php:43
 #, php-format
 msgid "Choose 1 to share your KEY with an OpenUDC community Node "
-msgstr ""
+msgstr "Choisir 1 pour envoyer votre clé vers un nœud OpenUDC"
 
 #: text/1.php:47
 #, php-format
-msgid "Launching the program \"seahorse\" you can check your unique UDID2-OpenUDC key is on the window \"My personals keys\". "
+msgid "Launching the program \"seahorse\" you can see your key."
 msgstr ""
 
 #: text/1.php:50
@@ -286,19 +287,19 @@ msgstr "Vous pouvez réessayer l'installation:"
 #: text/2.php:3
 #, php-format
 msgid "Contribute to OpenUDC"
-msgstr ""
+msgstr "Contribuer à OpenUDC"
 
 #: text/2_conf.php:4
 msgid "How to contribute to OpenUDC"
-msgstr ""
+msgstr "Comment contribuer à OpenUDC"
 
 #: text/2_conf.php:5
-msgid "contribute,developer"
+msgid "contribute,contributor,open-source,github,developer,develop,program,programmer"
 msgstr ""
 
 #: text/2.php:6
 #, php-format
-msgid "The project is still young, we need a lot of contributors for improving it. Feel free to join our developer and user community in using the following ways."
+msgid "The project is still young, we need a lot of contributors for improving it. Feel free to join our developer and user community."
 msgstr ""
 
 #: text/2.php:9
@@ -309,12 +310,12 @@ msgstr ""
 #: text/2.php:12
 #, php-format
 msgid "Github <a href=\"https://github.com/Open-UDC\">https://github.com/Open-UDC</a>"
-msgstr ""
+msgstr "Github <a href=\"https://github.com/Open-UDC\">https://github.com/Open-UDC</a>"
 
 #: text/2.php:15
 #, php-format
 msgid "Bug trackers <a href=\"https://github.com/Open-UDC/open-udc/issues\">https://github.com/Open-UDC/open-udc/issues</a>"
-msgstr ""
+msgstr "Bug trackers <a href=\"https://github.com/Open-UDC/open-udc/issues\">https://github.com/Open-UDC/open-udc/issues</a>"
 
 #: text/3_conf.php:3
 msgid "Contact OpenUDC team"
@@ -331,32 +332,32 @@ msgstr ""
 #: text/3.php:3
 #, php-format
 msgid "Contacts"
-msgstr ""
+msgstr "Contacts"
 
 #: text/3.php:7
 #, php-format
 msgid "Chartroom Jabber/XMPP: \"open-udc@muc.jappix.com\"."
-msgstr ""
+msgstr "Salon de discussion Jabber/XMPP: \"open-udc@muc.jappix.com\"."
 
 #: text/3.php:10
 #, php-format
 msgid "Mailing list \"openudc AT googlegroups DOT com\" <a href=\"https://groups.google.com/forum/#!forum/openudc\">https://groups.google.com/forum/#!forum/openudc</a>."
-msgstr ""
+msgstr "Mailing list \"openudc AT googlegroups DOT com\" <a href=\"https://groups.google.com/forum/#!forum/openudc\">https://groups.google.com/forum/#!forum/openudc</a>."
 
 #: text/3.php:14
 #, php-format
 msgid "Chat-room how-to"
-msgstr ""
+msgstr "Salon de discussion"
 
 #: text/3.php:17
 #, php-format
 msgid "Join the chat-room at \"open-udc@muc.jappix.com\"."
-msgstr ""
+msgstr "Rejoindre le salon de discussion sur \"open-udc@muc.jappix.com\"."
 
 #: text/3.php:20
 #, php-format
 msgid "You can easily create an XMPP account on <a href=\"https://jappix.com\">https://jappix.com</a> or on any over XMPP provider: <a href=\"http://xmpp.net\">http://xmpp.net</a>."
-msgstr ""
+msgstr "Vous pouvez créer facilement un compte XMPP sur <a href=\"https://jappix.com\">https://jappix.com</a> ou sur n'importe quel fournisseur XMPP: <a href=\"http://xmpp.net\">http://xmpp.net</a>."
 
 #: text/3.php:23
 #, php-format
@@ -376,12 +377,12 @@ msgstr "utiliser le client Web Jappix;"
 #: text/3.php:33
 #, php-format
 msgid "using MiniJappix on your own site;"
-msgstr ""
+msgstr "utiliser MiniJappix sur votre propre site;"
 
 #: text/3.php:36
 #, php-format
 msgid "install and use a free XMPP client (probably the best way)."
-msgstr ""
+msgstr "installer et utiliser un client XMPP (probablement la meilleure solution)."
 
 #: text/3.php:40
 #, php-format
@@ -409,7 +410,7 @@ msgstr ""
 
 #: text/4.php:10
 #, php-format
-msgid "Create a OpenPGP key with an UDID2 OpenUDC comment. (see GLUD at <a href =\"http://node1.openudc.org:11371/udid2/\" >http://node1.openudc.org:11371/udid2/</a> )"
+msgid "Create a OpenPGP key with the Open-UDC command line client. Also you can use \"gpg\" with a special <a href =\"http://node1.openudc.org:11371/udid2/\" >OpenUDC UDID2</a>."
 msgstr ""
 
 #: text/4.php:13
@@ -475,12 +476,12 @@ msgstr ""
 #: text/4.php:53
 #, php-format
 msgid "UD(0) = 100 Q "
-msgstr ""
+msgstr "UD(0) = 100 Q "
 
 #: text/4.php:56
 #, php-format
 msgid "UD(t+1) = MAX [UD(t) ; c*M(t)/N(t)]"
-msgstr ""
+msgstr "UD(t+1) = MAX [UD(t) ; c*M(t)/N(t)]"
 
 #: text/4.php:60
 #, php-format
@@ -490,7 +491,7 @@ msgstr ""
 #: text/4.php:64
 #, php-format
 msgid "c = ln(ev:2) / (ev:2)"
-msgstr ""
+msgstr "c = ln(ev:2) / (ev:2)"
 
 #: text/4.php:68
 #, php-format
@@ -500,7 +501,7 @@ msgstr ""
 #: text/4.php:72
 #, php-format
 msgid "c = ln(40) / 40 = 9&#37; / year."
-msgstr ""
+msgstr "c = ln(40) / 40 = 9&#37; / an."
 
 #: text/4.php:76
 #, php-format

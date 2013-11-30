@@ -1,6 +1,6 @@
 <?php
 $page="index";
 $ptitle=_("OpenUDC project");
-$description=_("OpenUDC");
-$keywords=_("monnaie,free money,universal dividend money system");
+$description=_("The OpenUDC free money");
+$keywords=_("money,free money,digital money,universal dividend money,bitcoin");
 ?>

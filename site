@@ -282,8 +282,8 @@ split(mem,memm,"=")
 }END{print "?>" > out }'
 
 mkdir -p locale
-xgettext --from-code=UTF-8 -o ./locale/messages.pot ./text/*.php
-msgmerge -s -U locale/fr_FR/LC_MESSAGES/message.po ./locale/messages.pot
-msgmerge -s -U locale/sp_SP/LC_MESSAGES/message.po ./locale/messages.pot
+xgettext --from-code=UTF-8 -o ./locale/messages.pot ./text/*.php ./conf/*.php
+#msgmerge -s -U locale/fr_FR/LC_MESSAGES/message.po ./locale/messages.pot
+#msgmerge -s -U locale/sp_SP/LC_MESSAGES/message.po ./locale/messages.pot
 
 

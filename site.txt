@@ -1,0 +1,390 @@
+OpenUDC
+Web site texts
+
+Pierro
+
+1 Project
+
+1.1 OpenUDC project
+
+ptitle=OpenUDC project
+
+description=The OpenUDC free money
+
+keywords=money,free money,digital money,universal dividend 
+money,bitcoin
+
+OpenUDC is a set of free softwares designed to create a free 
+money system based on a decentralized human P2P network.
+
+The softwares are under <a title="WikiPedia" 
+href="http://en.wikipedia.org/wiki/AGPL">AGPL</a> et <a 
+title="WikiPedia" 
+href="http://en.wikipedia.org/wiki/LGPL">LGPL</a>.
+
+$coment=sprintf(_("Convergence of skills OpenUDC"));
+
+get_image_in_langage("graph/all_jobs","svg","100%", $coment);
+
+1.1.1 Free Money system
+
+The OpenUDC softwares are designed to manage a free money system 
+as described by the TRM (Théorie Relative de la Monnaie), that 
+means a money system where no human has privileges in front of 
+money creation either in time or in space.
+
+These money systems solutions are Universal Dividend based money 
+systems. Every member in the community create (equal to receive) 
+the same Universal Dividend per period of time. 
+
+OpenUDC development chosen rule is described in the FAQ.
+
+OpenUDC allow each community who want to use its own free money 
+to describe its own Universal Dividend set of rules.
+
+1.1.2 Human P2P network
+
+$coment=sprintf(_("A web of trust in a human community"));
+
+get_image("graph/mens","svg","80%",$coment );
+
+The OpenUDC human P2P network is based on <a 
+href="http://en.wikipedia.org/wiki/OpenPGP">OpenPGP</a>. There is 
+an OpenPGP Web of Trust which identify the members of one OpenUDC 
+community sharing the same free money.
+
+A new member entering the money system has to be signed by a 
+determined (parameter of the money system) number of existing 
+members. A member yet existing in the money system has to renew 
+periodically signing in a period of time (other parameter of the 
+money system), as a renewable proof of life. 
+
+So there is no center, no centralized organism in an OpenUDC 
+money system.
+
+1.1.3 Exchanges
+
+Exchanges are made directly from person to person in "digital 
+coins". The sender announce to the system the amount and the 
+receiver, he signs it, and then send it to one node. The node 
+makes a propagation of the information, and when the whole system 
+fully validate the transaction, the receiver has the information.
+
+$coment=sprintf(_("A gives money to B (mode1 transaction)"));
+
+get_image_in_langage("graph/pay1","svg","80%",$coment );
+
+1.1.4 OpenUDC nodes
+
+A node is an instance of OpenUDC software, connected to other 
+nodes. All those P2P connected nodes know the OpenUDC Web of 
+Trust, and share the same database in a synchronized way. So the 
+database itself is a P2P shared database containing the whole 
+Monetary Mass. So each member of an OpenUDC money system can have 
+its own node and own copy of the updated OpenUDC Web of Trust and 
+OpenUDC Monetary Mass. 
+
+$coment=sprintf(_("A Network nodes"));
+
+get_image("graph/node","svg","80%",$coment );
+
+1.2 Technical choices 
+
+1.2.1 Digital coins 
+
+Each digital coin is identified in an unique way. It contains the 
+information of it's date of creation, creation owner (the member 
+who was the base of that unit creation), and of course the 
+up-to-date owner of that coin. These digital coins are 
+technically available in different sizes as powers of 2 : 2^0, or 
+2^1, or 2^2, 2^3 etc... This choice is due to optimization of 
+memory space, and also due to growing quantitative monetary mass. 
+
+Note1 : OpenUDC system has to show always the information on a 
+relative units, so quantitative units can be seen only for 
+technical base. On its own account a member has a number a 
+quantitative units Q, he can count on number of Universal 
+Dividend making the calculation account : Q / UD.
+
+In relative units the monetary Mass don't grow in number of UD 
+units, there is always a maximum average of 1 / c Universal 
+Dividend per member, so in the relative unit UD there is not 
+really monetary growth.
+
+Note2 : The OpenUDC digital coins are all in the P2P shared 
+database, and so there is no possibility for those coins to be 
+lost (you could lose your private OpenUDC Web of Trust Key, but 
+that problem can be solved by other ways than the OpenUDC system 
+itself). 
+
+1.2.2 Accounts are "keys"
+
+To obtain an account, it is enough to create it, and then to be 
+signed by a determined number of existing members. Account will 
+be activated only when the system rules will be fully OK. 
+Practically you create an OpenUDC WoT private key, and an OpenUDC 
+WoT public key, associated with a specific OpenUDC information 
+named UDID2 information. 
+
+With those keys you can access to transactions of your own 
+account, send to or receive from others. You sign and encrypt a 
+"digital order" to send, and then the node recognise you, and 
+make the job. When it's fully OK, the receiver has the complete 
+information and some digital coins have change of owner. Work of 
+the nodes When a node receive an encrypted "digital order" it 
+recognised the sender, and he is able to decrypt it and work on 
+it. The node makes verifications that the sender is the owner of 
+each digital coins of the digital order.
+
+$coment=sprintf(_("A gives money to B (mode1 transaction)"));
+
+get_image_in_langage("graph/pay1","svg","80%",$coment );
+
+$coment=sprintf(_("A gives money to B (mode2 transaction)"));
+
+get_image_in_langage("graph/pay2","svg","80%",$coment );
+
+1.2.3 Communication between nodes
+
+When a node collect a transaction, it informs immediately two 
+other nodes. Then these others nodes inform two other nodes and 
+so on. It's an exponential speed. Each node know before the nodes 
+it has to inform. When a new node connect or disconnect to the 
+system, new communication rules are automatically calculated.
+
+<div class="carousel"><ul><li><img src="graph/node.svg" 
+width="80%" alt="node" /></li><li><img src="graph/node1.svg" 
+alt="node1" /></li><li><img src="graph/node2.svg" width="80%" 
+alt="node2" /></li><li><img src="graph/node3.svg" alt="node3" 
+width="80%" /></li><li><img src="graph/node4.svg" width="80%" 
+alt="node4" /></li><li><img src="graph/node5.svg" alt="node5" 
+width="80%"/></li></ul></div>
+
+2 Install
+
+ptitle=Install OpenUDC
+
+description=How to install OpenUDC
+
+keywords=install,openUDC,free money
+
+2.1 Install
+
+2.1.1 To get all sources
+
+wget https://github.com/Open-UDC/open-udc/archive/v0.2.0.tar.gz
+
+2.1.2 Install Lud: OpenUDC command line client
+
+Get sources
+
+git clone https://github.com/Open-UDC/lud
+
+cd lud
+
+Run as root
+
+sudo make install
+
+Now run as normal user:
+
+lud.sh
+
+• It asks you informations (place of birth, date of birth, last 
+  name, first name) in order to generate a unique ID for your 
+  key.
+
+• When your key is generated, it shows a menu. 
+
+• Choose 1 to share your KEY with an OpenUDC community Node 
+
+Launching the program "seahorse" you can see your key.
+
+2.1.3 Install OpenUDC Node (ludd)
+
+Prepare depends
+
+apt-get install libgpgme11-dev
+
+Get sources
+
+git clone https://github.com/Open-UDC/thttpgpd
+
+Install
+
+cd thttpgpd
+
+./configure --enable-OpenUDC
+
+make
+
+make install
+
+Check that /usr/local/var/ludd is created (show hidden file to 
+see it) 
+
+ls -a /usr/local/var/ludd
+
+Type the command :
+
+ludd_init.sh
+
+ludd
+
+You can check your local adress : http://127.0.0.1:11371/ and so 
+access to your OpenUDC LUDD node 
+
+3 Contribute
+
+ptitle=Contribute to OpenUDC
+
+description=How to contribute to OpenUDC
+
+
+keywords=contribute,contributor,open-source,github,developer,develop,program,programmer
+
+3.1 Contribute to OpenUDC
+
+The project is still young, we need a lot of contributors for 
+improving it. Feel free to join our developer and user community.
+
+3.1.1 Open-UDC repository
+
+Github <a 
+href="https://github.com/Open-UDC">https://github.com/Open-UDC</a>
+
+Bug trackers <a 
+href="https://github.com/Open-UDC/open-udc/issues">https://github.com/Open-UDC/open-udc/issues</a>
+
+4 Contact
+
+ptitle=Contact OpenUDC team
+
+description=Contact and follow the team
+
+keywords=contribute,developer,contact
+
+4.1 Contacts
+
+• Chartroom Jabber/XMPP: "open-udc@muc.jappix.com".
+
+• Mailing list "openudc AT googlegroups DOT com" <a 
+  href="https://groups.google.com/forum/#!forum/openudc">https://groups.google.com/forum/#!forum/openudc</a>.
+
+4.1.1 Chat-room how-to
+
+Join the chat-room at "open-udc@muc.jappix.com".
+
+You can easily create an XMPP account on <a 
+href="https://jappix.com">https://jappix.com</a> or on any over 
+XMPP provider: <a href="http://xmpp.net">http://xmpp.net</a>.
+
+After you can:
+
+• clicking on Discussion in the bottom right hand corner of the 
+  OpenUDC web site;
+
+• use a XMPP client like <a href="http://gajim.org/">Gajim</a> or 
+  <a href="http://psi-plus.com/">PSI+</a>.
+
+5 FAQ
+
+ptitle=FAQ OpenUDC
+
+description=Frequently asked questions
+
+keywords=faq,developer,contact
+
+5.1 Frequently asked questions
+
+5.1.1 What are the step needed to join an Open-UDC community ?
+
+1. Create a OpenPGP key with the Open-UDC command line client. 
+  Also you can use "gpg" with a special <a href 
+  ="http://node1.openudc.org:11371/udid2/" >OpenUDC UDID2</a>.
+
+2. Your key must be signed by 5 or more known yet registered 
+  users within the community (at least enough to be valid with 
+  GnuPG's default criteria)
+
+3. You learn to use LUD or GLUD client to connect to a LUDD node.
+
+4. You are in.
+
+5.1.2 What mean M, N, c in OpenUDC concepts ?
+
+M or M(t) means the whole monetary Mass, the sum of all unit 
+coins within the community at the date "t". N or N(t) mean the 
+total of registered users inside the community at the date "t". 
+The parameter "c" is used as the &#37; of monetary mass growth 
+per time unit (ex : &#37; per year or &#37; per month).
+
+5.1.3 What are LUD, GLUD, LUDD, UDID2 ?
+
+• LUDD is the free software that run an OpenUDC P2P node.
+
+• LUD is the free software OpenUDC standard command line client. 
+  LUD means "LUD Universal Dividend" able to connect to a LUDD 
+  node. You must install LUD on your own machine.
+
+• GLUD is a graphical web interface for LUD with a development 
+  version here : http://node1.openudc.org:11371/udid2/ 
+
+• UDID2 is OpenUDC information needed to add to OpenPGP keys to 
+  become candidate to OpenUDC PGP keys. (see more information in 
+  technical specifications for developers).
+
+5.1.4 What are the rules of OpenUDC Universal Dividend creation ?
+
+The rules (for the development standard) are defined as a time 
+function UD(t), defined following Relative Money Theory (TRM in 
+french) as a differential dividend : The quantitative dividend 
+must change with only differential (small) adds, reaching in 
+relative amount "c" for the average long term growth.
+
+• UD(0) = 100 Q 
+
+• UD(t+1) = MAX [UD(t) ; c*M(t)/N(t)]
+
+Where "t" is the past month. UD(t) is the UD of past month. "c" 
+is the minimal &#37; UD growth as defined in the 4th rule. M(t) 
+is the existing monetary mass, and N(t) is the total amount of 
+members. All are values just before calculation of new monthly 
+UD(t+1):
+
+• c = ln(ev:2) / (ev:2)
+
+c is defined here as the quantitative average monetary mass 
+growth based on human average life expectancy. For a 80 years 
+average life expectancy we have:
+
+• c = ln(40) / 40 = 9&#37; / year.
+
+As those rules are parameters of OpenUDC, one community can use 
+OpenUDC with other set of rules. OpenUDC is totally independant 
+of the rules chosen by a money community. 
+
+5.1.5 Why OpenUDC contributors say "there is no inflation" since 
+  we have a Monetary growth ?
+
+Because inflation is a false conclusion due to ignorance 
+relatively to a bad unit of money because the Quantative units of 
+money growth due to Universal Dividend is not the Relative one.
+
+An OpenUDC community use the relative unit 1 UD, and not the 
+quantitative 1 Q. So there is still in the money system the same 
+number of money units N / c UD. And then the number of UD money 
+units only depend of the number of members, and the average 
+amount of money per member is always fixed or limited by 1 / c 
+UD.
+
+So inflation is not a problem in Universal Dividend money system, 
+because there is Quantitative creation but not Relative money 
+creation and we count in number of Universal Dividend, the 
+Relative Unit. 
+
+Inflation is only a problem in non-free money system when some 
+individuals create money for their own benefit and to the 
+detriment of others, and so the problem is due to that non-free 
+money model.
+

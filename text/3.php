@@ -27,16 +27,6 @@ print "<li>";
 printf(_("clicking on Discussion in the bottom right hand corner of the OpenUDC web site;"));
 print "</li>";
 print "<li>";
-printf(_("using the Jabber compatible web-client Jappix;"));
+printf(_("use a XMPP client like <a href=\"http://gajim.org/\">Gajim</a> or <a href=\"http://psi-plus.com/\">PSI+</a>."));
 print "</li>";
-print "<li>";
-printf(_("using MiniJappix on your own site;"));
-print "</li>";
-print "<li>";
-printf(_("install and use a free XMPP client (probably the best way)."));
-print "</li>";
-print "</ul>";
-print "<p>";
-printf(_("Recommended XMPP clients: <a href=\"http://gajim.org/\">Gajim</a>, <a href=\"http://psi-plus.com/\">PSI+</a>."));
-print "</p>";
 ?>
