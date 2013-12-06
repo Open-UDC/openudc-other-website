@@ -8,6 +8,9 @@ if (! isset( $_SESSION['lg'] ) OR isset($_GET['hl']) ) {
 if ($_SESSION['lg'] != $lg ) {
 	include_once("./bin/lang.php");
 }
+
+
+
 $lang= $_SESSION['lang_ref'][$_SESSION['lg']].'.utf8';
 $filename="message";
 putenv("LC_ALL=$lang");
@@ -109,8 +112,8 @@ echo '<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.mi
 echo '<script type="text/javascript" src="js/jquery.ministrap.min.js"></script>
 <script type="text/javascript">
    jQuery.ajaxSetup({cache: true});
-   
-   jQuery.getScript("https://static.jappix.com/php/get.php?l=en&t=js&g=mini.xml", function() {
+   var url="get.php?l=en%26t=js%26g=mini.xml";
+   jQuery.getScript("https://static.jappix.com/php/" + decodeURIComponent(url), function() {
       MINI_GROUPCHATS = ["open-udc@muc.jappix.com"];
       launchMini(false, true, "anonymous.jappix.com");
    });
@@ -167,7 +170,7 @@ echo '
 </div>';
 
 
-
+//https://www.gittip.com/OpenUDC/members/
 
 echo'  </body>
 </html>';

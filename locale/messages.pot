@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-30 15:32+0100\n"
+"POT-Creation-Date: 2013-12-01 20:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,23 +106,29 @@ msgstr ""
 #, php-format
 msgid ""
 "A new member entering the money system has to be signed by a determined "
-"(parameter of the money system) number of existing members. A member yet "
-"existing in the money system has to renew periodically signing in a period "
-"of time (other parameter of the money system), as a renewable proof of life. "
+"(parameter of the money system) number of existing members."
 msgstr ""
 
 #: text/0.php:40
 #, php-format
 msgid ""
-"So there is no center, no centralized organism in an OpenUDC money system."
+"A member yet existing in the money system has to renew periodically signing "
+"in a period of time (other parameter of the money system), as a renewable "
+"proof of life. "
 msgstr ""
 
 #: text/0.php:43
 #, php-format
-msgid "Exchanges"
+msgid ""
+"So there is no center, no centralized organism in an OpenUDC money system."
 msgstr ""
 
 #: text/0.php:46
+#, php-format
+msgid "Exchanges"
+msgstr ""
+
+#: text/0.php:49
 #, php-format
 msgid ""
 "Exchanges are made directly from person to person in \"digital coins\". The "
@@ -132,43 +138,48 @@ msgid ""
 "the information."
 msgstr ""
 
-#: text/0.php:48 text/0.php:85
+#: text/0.php:51 text/0.php:85
 #, php-format
 msgid "A gives money to B (mode1 transaction)"
 msgstr ""
 
-#: text/0.php:51
+#: text/0.php:54
 #, php-format
 msgid "OpenUDC nodes"
 msgstr ""
 
-#: text/0.php:54
+#: text/0.php:57
 #, php-format
 msgid ""
 "A node is an instance of OpenUDC software, connected to other nodes. All "
 "those P2P connected nodes know the OpenUDC Web of Trust, and share the same "
 "database in a synchronized way. So the database itself is a P2P shared "
-"database containing the whole Monetary Mass. So each member of an OpenUDC "
-"money system can have its own node and own copy of the updated OpenUDC Web "
-"of Trust and OpenUDC Monetary Mass. "
+"database containing the whole Monetary Mass."
 msgstr ""
 
-#: text/0.php:56
+#: text/0.php:60
 #, php-format
-msgid "A Network nodes"
-msgstr ""
-
-#: text/0.php:59
-#, php-format
-msgid "Technical choices "
+msgid ""
+"Each member of an OpenUDC money system can have its own node and own copy of "
+"the updated OpenUDC Web of Trust and OpenUDC Monetary Mass. "
 msgstr ""
 
 #: text/0.php:62
 #, php-format
-msgid "Digital coins "
+msgid "A Network nodes"
 msgstr ""
 
 #: text/0.php:65
+#, php-format
+msgid "Technical choices "
+msgstr ""
+
+#: text/0.php:68
+#, php-format
+msgid "Digital coins "
+msgstr ""
+
+#: text/0.php:71
 #, php-format
 msgid ""
 "Each digital coin is identified in an unique way. It contains the "
@@ -180,30 +191,11 @@ msgid ""
 "mass. "
 msgstr ""
 
-#: text/0.php:68
-#, php-format
-msgid ""
-"Note1 : OpenUDC system has to show always the information on a relative "
-"units, so quantitative units can be seen only for technical base. On its own "
-"account a member has a number a quantitative units Q, he can count on number "
-"of Universal Dividend making the calculation account : Q / UD."
-msgstr ""
-
-#: text/0.php:71
-#, php-format
-msgid ""
-"In relative units the monetary Mass don't grow in number of UD units, there "
-"is always a maximum average of 1 / c Universal Dividend per member, so in "
-"the relative unit UD there is not really monetary growth."
-msgstr ""
-
 #: text/0.php:74
 #, php-format
 msgid ""
-"Note2 : The OpenUDC digital coins are all in the P2P shared database, and so "
-"there is no possibility for those coins to be lost (you could lose your "
-"private OpenUDC Web of Trust Key, but that problem can be solved by other "
-"ways than the OpenUDC system itself). "
+"The OpenUDC digital coins are all in the P2P shared database, and so there "
+"is no possibility for those coins to be lost."
 msgstr ""
 
 #: text/0.php:77
@@ -463,7 +455,7 @@ msgid "Frequently asked questions"
 msgstr ""
 
 #: text/4_conf.php:5
-msgid "faq,developer,contact"
+msgid "faq,openudc"
 msgstr ""
 
 #: text/4.php:7

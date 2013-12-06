@@ -16,7 +16,7 @@ echo '<div class="top-bar">
 
 								<ul class="sub-menu">';
 
-echo '<li><a href="index_'. $_SESSION['lg'] .'.php">'. _("Project") .'&nbsp</a></li>';
+echo '<li><a href="index_'. $_SESSION['lg'] .'.php">'. _("Project") .'&nbsp;</a></li>';
 echo '<li><a href="install_'. $_SESSION['lg'] .'.php">'. _("Install") .'&nbsp;</a></li>';
 echo '<li><a href="contribute_'. $_SESSION['lg'] .'.php">'. _("Contribute") .'&nbsp;</a></li>';
 echo '<li><a href="contact_'. $_SESSION['lg'] .'.php">'. _("Contact") .'&nbsp;</a></li>';

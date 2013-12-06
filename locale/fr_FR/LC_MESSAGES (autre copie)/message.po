@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: openudc-other-website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-30 15:32+0100\n"
-"PO-Revision-Date: 2013-12-01 18:44+0100\n"
+"PO-Revision-Date: 2013-11-30 16:13+0100\n"
 "Last-Translator: Pierro <openz@laposte.net>\n"
 "Language-Team: French (France) (http://www.transifex.com/projects/p/openudc-other-website/language/fr_FR/)\n"
 "MIME-Version: 1.0\n"
@@ -51,32 +51,32 @@ msgstr "Convergence de compétences OpenUDC"
 #: text/0.php:14
 #, php-format
 msgid "Free Money system"
-msgstr "Système de monnaie libre"
+msgstr ""
 
 #: text/0.php:17
 #, php-format
 msgid "The OpenUDC softwares are designed to manage a free money system as described by the TRM (Théorie Relative de la Monnaie), that means a money system where no human has privileges in front of money creation either in time or in space."
-msgstr "Les logiciels OpenUDC sont conçus pour mettre en oeuvre une monnaie telle que la décrit la TRM (Théorie Relative de la Monnaie). Il s'agit d'un système où chaque homme est égal devant la création monétaire, quelle que soit son lieu ou son époque."
+msgstr ""
 
 #: text/0.php:20
 #, php-format
 msgid "These money systems solutions are Universal Dividend based money systems. Every member in the community create (equal to receive) the same Universal Dividend per period of time. "
-msgstr "C'est un système monétaire à revenu de base. Chaque membre reçoit la même quantité de monnaie par intervalle de temps."
+msgstr ""
 
 #: text/0.php:23
 #, php-format
 msgid "OpenUDC development chosen rule is described in the FAQ."
-msgstr "Les régles de création monétaire choisies par les dévelopeurs sont décrites dans la FAQ."
+msgstr ""
 
 #: text/0.php:26
 #, php-format
 msgid "OpenUDC allow each community who want to use its own free money to describe its own Universal Dividend set of rules."
-msgstr "Chaque communauté reste libre de définir ses propres règles."
+msgstr ""
 
 #: text/0.php:29
 #, php-format
 msgid "Human P2P network"
-msgstr "Un réseau d'êtres humains"
+msgstr ""
 
 #: text/0.php:31
 #, php-format
@@ -96,17 +96,17 @@ msgstr ""
 #: text/0.php:40
 #, php-format
 msgid "So there is no center, no centralized organism in an OpenUDC money system."
-msgstr "Il n'y a pas besoin d'autorité centralisée avec une monaie basée sur OpenUDC."
+msgstr ""
 
 #: text/0.php:43
 #, php-format
 msgid "Exchanges"
-msgstr "Les échanges"
+msgstr ""
 
 #: text/0.php:46
 #, php-format
 msgid "Exchanges are made directly from person to person in \"digital coins\". The sender announce to the system the amount and the receiver, he signs it, and then send it to one node. The node makes a propagation of the information, and when the whole system fully validate the transaction, the receiver has the information."
-msgstr "Les échanges se font directement de personne à personne en \"pièces numériques\". L'acheteur annonce qu'il veut verser un montant à une personne, il signe sa demande puis il l'envoie vers un nœud (voir plus bas). Après validation le destinataire est informé."
+msgstr ""
 
 #: text/0.php:48
 #: text/0.php:85
@@ -117,7 +117,7 @@ msgstr "A donne de l'argent à B (transaction mode1)"
 #: text/0.php:51
 #, php-format
 msgid "OpenUDC nodes"
-msgstr "Les noeuds"
+msgstr ""
 
 #: text/0.php:54
 #, php-format
@@ -132,17 +132,17 @@ msgstr "Un réseau de nœuds"
 #: text/0.php:59
 #, php-format
 msgid "Technical choices "
-msgstr "Choix techniques"
+msgstr ""
 
 #: text/0.php:62
 #, php-format
 msgid "Digital coins "
-msgstr "Des pièces de monnaie numériques"
+msgstr ""
 
 #: text/0.php:65
 #, php-format
 msgid "Each digital coin is identified in an unique way. It contains the information of it's date of creation, creation owner (the member who was the base of that unit creation), and of course the up-to-date owner of that coin. These digital coins are technically available in different sizes as powers of 2 : 2^0, or 2^1, or 2^2, 2^3 etc... This choice is due to optimization of memory space, and also due to growing quantitative monetary mass. "
-msgstr "Chaque unité d'échanges est identifiée de manière unique, chacune est liée à un propriétaire unique. Ces \"pièces numériques\" sont techniquement disponibles en différentes tailles puissances de 2 : 1 2 4 8 16 32.  Ce choix provient d'un soucis d'optimisation de l'espace de stockage sur les nœuds."
+msgstr ""
 
 #: text/0.php:68
 #, php-format
@@ -162,12 +162,12 @@ msgstr ""
 #: text/0.php:77
 #, php-format
 msgid "Accounts are \"keys\""
-msgstr "Les comptes sont des \"clés\""
+msgstr ""
 
 #: text/0.php:80
 #, php-format
 msgid "To obtain an account, it is enough to create it, and then to be signed by a determined number of existing members. Account will be activated only when the system rules will be fully OK. Practically you create an OpenUDC WoT private key, and an OpenUDC WoT public key, associated with a specific OpenUDC information named UDID2 information. "
-msgstr "Pour obtenir un compte il suffit de le créer puis de demander à être reconnu par un ou plusieurs membres actuels de la communauté monétaire. En pratique on crée une clé privée et une clé publique avec un identifiant \"UDIDI2\" propre à OpenUDC."
+msgstr ""
 
 #: text/0.php:83
 #, php-format
@@ -187,7 +187,7 @@ msgstr "Communication entre les nœuds"
 #: text/0.php:93
 #, php-format
 msgid "When a node collect a transaction, it informs immediately two other nodes. Then these others nodes inform two other nodes and so on. It's an exponential speed. Each node know before the nodes it has to inform. When a new node connect or disconnect to the system, new communication rules are automatically calculated."
-msgstr "Lorsqu'un nœud collecte une transaction il en informe immédiatement deux autres nœuds. Puis chacun informe à son tour deux autres nœuds, et ainsi de suite. C'est une propagation à vitesse exponentielle. Chaque nœud connaît à l'avance ceux qu'il doit prévenir. Si un nouveau nœud apparaît, de nouvelles règles sont calculées automatiquement."
+msgstr ""
 
 #: text/1_conf.php:3
 msgid "Install OpenUDC"
@@ -297,7 +297,7 @@ msgstr ""
 #: text/2.php:6
 #, php-format
 msgid "The project is still young, we need a lot of contributors for improving it. Feel free to join our developer and user community."
-msgstr "Le projet est jeune et nous avons besoin de vos contributions. N'hésitez pas à rejoindre notre communauté de dévellopeurs et d'utilisateurs."
+msgstr ""
 
 #: text/2.php:9
 #, php-format
