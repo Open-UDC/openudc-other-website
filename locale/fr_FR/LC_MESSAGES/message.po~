@@ -4,315 +4,156 @@
 #
 # Translators:
 # Openz <openz@laposte.net>, 2013
+# Openz <openz@laposte.net>, 2013
+# Sly <waxsly@hotmail.com>, 2013
 # Sly <waxsly@hotmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: openudc-other-website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-30 15:32+0100\n"
-"PO-Revision-Date: 2013-12-01 18:44+0100\n"
+"POT-Creation-Date: 2014-04-25 13:48+0200\n"
+"PO-Revision-Date: 2013-12-14 13:50+0100\n"
 "Last-Translator: Pierro <openz@laposte.net>\n"
-"Language-Team: French (France) (http://www.transifex.com/projects/p/openudc-other-website/language/fr_FR/)\n"
+"Language-Team: French (France) (http://www.transifex.com/projects/p/openudc-"
+"other-website/language/fr_FR/)\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_FR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: text/0_conf.php:3
-#: text/0.php:3
-#, php-format
-msgid "OpenUDC project"
-msgstr "Projet OpenUDC"
-
-#: text/0_conf.php:4
-msgid "The OpenUDC free money"
-msgstr "La monnaie libre OpenUDC"
-
-#: text/0_conf.php:5
-msgid "money,free money,digital money,universal dividend money,bitcoin"
-msgstr "monnaie,monnaie libre,monnaie numérique,dividende universel,bitcoin"
-
-#: text/0.php:6
-#, php-format
-msgid "OpenUDC is a set of free softwares designed to create a free money system based on a decentralized human P2P network."
-msgstr "OpenUDC est un ensemble de logiciels libres, élaborés pour créer un système de monnaie libre, basé sur un réseau humain décentralisé de pair à pair (P2P)."
-
-#: text/0.php:9
-#, php-format
-msgid "The softwares are under <a title=\"WikiPedia\" href=\"http://en.wikipedia.org/wiki/AGPL\">AGPL</a> et <a title=\"WikiPedia\" href=\"http://en.wikipedia.org/wiki/LGPL\">LGPL</a>."
-msgstr "Les programmes sont sous licences <a title=\"WikiPedia\" href=\"http://en.wikipedia.org/wiki/AGPL\">AGPL</a> et <a title=\"WikiPedia\" href=\"http://en.wikipedia.org/wiki/LGPL\">LGPL</a>."
-
-#: text/0.php:11
-#, php-format
-msgid "Convergence of skills OpenUDC"
-msgstr "Convergence de compétences OpenUDC"
-
-#: text/0.php:14
-#, php-format
-msgid "Free Money system"
-msgstr "Système de monnaie libre"
-
-#: text/0.php:17
-#, php-format
-msgid "The OpenUDC softwares are designed to manage a free money system as described by the TRM (Théorie Relative de la Monnaie), that means a money system where no human has privileges in front of money creation either in time or in space."
-msgstr "Les logiciels OpenUDC sont conçus pour mettre en oeuvre une monnaie telle que la décrit la TRM (Théorie Relative de la Monnaie). Il s'agit d'un système où chaque homme est égal devant la création monétaire, quelle que soit son lieu ou son époque."
-
-#: text/0.php:20
-#, php-format
-msgid "These money systems solutions are Universal Dividend based money systems. Every member in the community create (equal to receive) the same Universal Dividend per period of time. "
-msgstr "C'est un système monétaire à revenu de base. Chaque membre reçoit la même quantité de monnaie par intervalle de temps."
-
-#: text/0.php:23
-#, php-format
-msgid "OpenUDC development chosen rule is described in the FAQ."
-msgstr "Les régles de création monétaire choisies par les dévelopeurs sont décrites dans la FAQ."
-
-#: text/0.php:26
-#, php-format
-msgid "OpenUDC allow each community who want to use its own free money to describe its own Universal Dividend set of rules."
-msgstr "Chaque communauté reste libre de définir ses propres règles."
-
-#: text/0.php:29
-#, php-format
-msgid "Human P2P network"
-msgstr "Un réseau d'êtres humains"
-
-#: text/0.php:31
-#, php-format
-msgid "A web of trust in a human community"
-msgstr "Une toile de confiance dans une communauté humaine"
-
-#: text/0.php:34
-#, php-format
-msgid "The OpenUDC human P2P network is based on <a href=\"http://en.wikipedia.org/wiki/OpenPGP\">OpenPGP</a>. There is an OpenPGP Web of Trust which identify the members of one OpenUDC community sharing the same free money."
-msgstr ""
-
-#: text/0.php:37
-#, php-format
-msgid "A new member entering the money system has to be signed by a determined (parameter of the money system) number of existing members. A member yet existing in the money system has to renew periodically signing in a period of time (other parameter of the money system), as a renewable proof of life. "
-msgstr ""
-
-#: text/0.php:40
-#, php-format
-msgid "So there is no center, no centralized organism in an OpenUDC money system."
-msgstr "Il n'y a pas besoin d'autorité centralisée avec une monaie basée sur OpenUDC."
-
-#: text/0.php:43
-#, php-format
-msgid "Exchanges"
-msgstr "Les échanges"
-
-#: text/0.php:46
-#, php-format
-msgid "Exchanges are made directly from person to person in \"digital coins\". The sender announce to the system the amount and the receiver, he signs it, and then send it to one node. The node makes a propagation of the information, and when the whole system fully validate the transaction, the receiver has the information."
-msgstr "Les échanges se font directement de personne à personne en \"pièces numériques\". L'acheteur annonce qu'il veut verser un montant à une personne, il signe sa demande puis il l'envoie vers un nœud (voir plus bas). Après validation le destinataire est informé."
-
-#: text/0.php:48
-#: text/0.php:85
-#, php-format
-msgid "A gives money to B (mode1 transaction)"
-msgstr "A donne de l'argent à B (transaction mode1)"
-
-#: text/0.php:51
-#, php-format
-msgid "OpenUDC nodes"
-msgstr "Les noeuds"
-
-#: text/0.php:54
-#, php-format
-msgid "A node is an instance of OpenUDC software, connected to other nodes. All those P2P connected nodes know the OpenUDC Web of Trust, and share the same database in a synchronized way. So the database itself is a P2P shared database containing the whole Monetary Mass. So each member of an OpenUDC money system can have its own node and own copy of the updated OpenUDC Web of Trust and OpenUDC Monetary Mass. "
-msgstr ""
-
-#: text/0.php:56
+#: text/0.php:62
 #, php-format
 msgid "A Network nodes"
 msgstr "Un réseau de nœuds"
 
-#: text/0.php:59
+#: text/0.php:51 text/0.php:85
 #, php-format
-msgid "Technical choices "
-msgstr "Choix techniques"
-
-#: text/0.php:62
-#, php-format
-msgid "Digital coins "
-msgstr "Des pièces de monnaie numériques"
-
-#: text/0.php:65
-#, php-format
-msgid "Each digital coin is identified in an unique way. It contains the information of it's date of creation, creation owner (the member who was the base of that unit creation), and of course the up-to-date owner of that coin. These digital coins are technically available in different sizes as powers of 2 : 2^0, or 2^1, or 2^2, 2^3 etc... This choice is due to optimization of memory space, and also due to growing quantitative monetary mass. "
-msgstr "Chaque unité d'échanges est identifiée de manière unique, chacune est liée à un propriétaire unique. Ces \"pièces numériques\" sont techniquement disponibles en différentes tailles puissances de 2 : 1 2 4 8 16 32.  Ce choix provient d'un soucis d'optimisation de l'espace de stockage sur les nœuds."
-
-#: text/0.php:68
-#, php-format
-msgid "Note1 : OpenUDC system has to show always the information on a relative units, so quantitative units can be seen only for technical base. On its own account a member has a number a quantitative units Q, he can count on number of Universal Dividend making the calculation account : Q / UD."
-msgstr ""
-
-#: text/0.php:71
-#, php-format
-msgid "In relative units the monetary Mass don't grow in number of UD units, there is always a maximum average of 1 / c Universal Dividend per member, so in the relative unit UD there is not really monetary growth."
-msgstr ""
-
-#: text/0.php:74
-#, php-format
-msgid "Note2 : The OpenUDC digital coins are all in the P2P shared database, and so there is no possibility for those coins to be lost (you could lose your private OpenUDC Web of Trust Key, but that problem can be solved by other ways than the OpenUDC system itself). "
-msgstr ""
-
-#: text/0.php:77
-#, php-format
-msgid "Accounts are \"keys\""
-msgstr "Les comptes sont des \"clés\""
-
-#: text/0.php:80
-#, php-format
-msgid "To obtain an account, it is enough to create it, and then to be signed by a determined number of existing members. Account will be activated only when the system rules will be fully OK. Practically you create an OpenUDC WoT private key, and an OpenUDC WoT public key, associated with a specific OpenUDC information named UDID2 information. "
-msgstr "Pour obtenir un compte il suffit de le créer puis de demander à être reconnu par un ou plusieurs membres actuels de la communauté monétaire. En pratique on crée une clé privée et une clé publique avec un identifiant \"UDIDI2\" propre à OpenUDC."
-
-#: text/0.php:83
-#, php-format
-msgid "With those keys you can access to transactions of your own account, send to or receive from others. You sign and encrypt a \"digital order\" to send, and then the node recognise you, and make the job. When it's fully OK, the receiver has the complete information and some digital coins have change of owner. Work of the nodes When a node receive an encrypted \"digital order\" it recognised the sender, and he is able to decrypt it and work on it. The node makes verifications that the sender is the owner of each digital coins of the digital order."
-msgstr ""
+msgid "A gives money to B (mode1 transaction)"
+msgstr "A donne de l'argent à B (transaction mode1)"
 
 #: text/0.php:87
 #, php-format
 msgid "A gives money to B (mode2 transaction)"
 msgstr "A donne de l'argent à B (transaction mode2)"
 
-#: text/0.php:90
+#: text/0.php:40
 #, php-format
-msgid "Communication between nodes"
-msgstr "Communication entre les nœuds"
+msgid ""
+"A member yet existing in the money system has to renew periodically signing "
+"in a period of time (other parameter of the money system), as a renewable "
+"proof of life. "
+msgstr ""
+"Un membre existant doit renouveler périodiquement sa toile de confiance, "
+"cela garantit qu'il est toujours vivant."
 
-#: text/0.php:93
+#: text/0.php:37
 #, php-format
-msgid "When a node collect a transaction, it informs immediately two other nodes. Then these others nodes inform two other nodes and so on. It's an exponential speed. Each node know before the nodes it has to inform. When a new node connect or disconnect to the system, new communication rules are automatically calculated."
-msgstr "Lorsqu'un nœud collecte une transaction il en informe immédiatement deux autres nœuds. Puis chacun informe à son tour deux autres nœuds, et ainsi de suite. C'est une propagation à vitesse exponentielle. Chaque nœud connaît à l'avance ceux qu'il doit prévenir. Si un nouveau nœud apparaît, de nouvelles règles sont calculées automatiquement."
+msgid ""
+"A new member entering the money system has to be signed by a determined "
+"(parameter of the money system) number of existing members."
+msgstr ""
+"Un nouvel entrant doit être reconnu par un nombre prédéterminé de membres "
+"existants."
 
-#: text/1_conf.php:3
-msgid "Install OpenUDC"
-msgstr "Installer OpenUDC"
-
-#: text/1_conf.php:4
-msgid "How to install OpenUDC"
-msgstr "Installer OpenUDC"
-
-#: text/1_conf.php:5
-msgid "install,openUDC,free money"
-msgstr "installer,openUDC,monnaie libre"
-
-#: text/1.php:3
-#: text/1.php:65
-#: conf/menu.php:12
-#: conf/top-bar.php:20
+#: text/0.php:57
 #, php-format
-msgid "Install"
-msgstr "Installer"
+msgid ""
+"A node is an instance of OpenUDC software, connected to other nodes. All "
+"those P2P connected nodes know the OpenUDC Web of Trust, and share the same "
+"database in a synchronized way. So the database itself is a P2P shared "
+"database containing the whole Monetary Mass."
+msgstr ""
+"Un nœud est un serveur qui contient les informations sur la toile de "
+"confiance ainsi que la base de donnée de l'ensemble des pièces numériques. "
+"Il peut y avoir plusieurs nœuds qui partagent alors la même base de données "
+"de manière synchrone."
 
-#: text/1.php:6
+#: text/0.php:31
 #, php-format
-msgid "To get all sources"
-msgstr "Obtenir toutes les sources"
+msgid "A web of trust in a human community"
+msgstr "Une toile de confiance dans une communauté humaine"
 
-#: text/1.php:12
+#: text/0.php:77
 #, php-format
-msgid "Install Lud: OpenUDC command line client"
-msgstr "Installer Lud: client en ligne de commande OpenUDC"
+msgid "Accounts are \"keys\""
+msgstr "Les comptes sont des \"clés\""
 
-#: text/1.php:15
-#: text/1.php:59
+#: text/3.php:23
 #, php-format
-msgid "Get sources"
-msgstr "Obtenir les sources"
+msgid "After you can:"
+msgstr "Après vous pouvez:"
 
-#: text/1.php:24
+#: text/4.php:86
 #, php-format
-msgid "Run as root"
-msgstr "Lancer comme super-utilisateur"
+msgid ""
+"An OpenUDC community use the relative unit 1 UD, and not the quantitative 1 "
+"Q. So there is still in the money system the same number of money units N / "
+"c UD. And then the number of UD money units only depend of the number of "
+"members, and the average amount of money per member is always fixed or "
+"limited by 1 / c UD."
+msgstr ""
 
-#: text/1.php:30
+#: text/4.php:77
 #, php-format
-msgid "Now run as normal user:"
-msgstr "Maintenant lancer comme simple utilisateur"
+msgid ""
+"As those rules are parameters of OpenUDC, one community can use OpenUDC with "
+"other set of rules. OpenUDC is totally independant of the rules chosen by a "
+"money community. "
+msgstr ""
 
-#: text/1.php:37
+#: text/2.php:46
 #, php-format
-msgid "It asks you informations (place of birth, date of birth, last name, first name) in order to generate a unique ID for your key."
-msgstr "Des informations sont demandées (lieu de naissance, date de naissance, nom, prénom) afin de créer votre ID unique pour votre clé."
+msgid ""
+"Ask to join a team for each project and each language, or ask for a new "
+"language."
+msgstr ""
 
-#: text/1.php:40
+#: text/4.php:83
 #, php-format
-msgid "When your key is generated, it shows a menu. "
-msgstr "Quand votre clé est générée, vous arrivez sur un menu."
+msgid ""
+"Because inflation is a false conclusion due to ignorance relatively to a bad "
+"unit of money because the Quantative units of money growth due to Universal "
+"Dividend is not the Relative one."
+msgstr ""
 
-#: text/1.php:43
+#: text/2.php:32
 #, php-format
-msgid "Choose 1 to share your KEY with an OpenUDC community Node "
-msgstr "Choisir 1 pour envoyer votre clé vers un nœud OpenUDC"
+msgid ""
+"Bug trackers <a href=\"https://github.com/Open-UDC/open-udc/issues\">https://"
+"github.com/Open-UDC/open-udc/issues</a>"
+msgstr ""
+"Bug trackers <a href=\"https://github.com/Open-UDC/open-udc/issues\">https://"
+"github.com/Open-UDC/open-udc/issues</a>"
 
-#: text/1.php:47
+#: text/3.php:7
 #, php-format
-msgid "Launching the program \"seahorse\" you can see your key."
-msgstr "En lançant le programme \"seahorse\" vous pouvez voir votre clé."
+msgid "Chartroom Jabber/XMPP: \"open-udc@muc.jappix.com\"."
+msgstr "Salon de discussion Jabber/XMPP: \"open-udc@muc.jappix.com\"."
 
-#: text/1.php:50
+#: text/3.php:14
 #, php-format
-msgid "Install OpenUDC Node (ludd)"
-msgstr "Installer OpenUDC Node (ludd)"
-
-#: text/1.php:53
-#, php-format
-msgid "Prepare depends"
-msgstr "Préparez les dépendances"
+msgid "Chat-room how-to"
+msgstr "Salon de discussion"
 
 #: text/1.php:80
 #, php-format
 msgid "Check that /usr/local/var/ludd is created (show hidden file to see it) "
 msgstr "Vérifier si le répertoire /usr/local/var/ludd est crée"
 
-#: text/1.php:86
+#: text/1.php:43
 #, php-format
-msgid "Type the command :"
-msgstr "Tapez la commande:"
+msgid "Choose 1 to share your KEY with an OpenUDC community Node "
+msgstr "Choisir 1 pour envoyer votre clé vers un nœud OpenUDC"
 
-#: text/1.php:95
+#: text/0.php:90
 #, php-format
-msgid "You can check your local adress : http://127.0.0.1:11371/ and so access to your OpenUDC LUDD node "
-msgstr "Testez sur votre explorateur l'adresse :  http://127.0.0.1:11371/ et vous accédez au noeud OpenUDC"
+msgid "Communication between nodes"
+msgstr "Communication entre les nœuds"
 
-#: text/2_conf.php:3
-#: text/2.php:3
-#, php-format
-msgid "Contribute to OpenUDC"
-msgstr "Contribuer à OpenUDC"
-
-#: text/2_conf.php:4
-msgid "How to contribute to OpenUDC"
-msgstr "Comment contribuer à OpenUDC"
-
-#: text/2_conf.php:5
-msgid "contribute,contributor,open-source,github,developer,develop,program,programmer"
-msgstr ""
-
-#: text/2.php:6
-#, php-format
-msgid "The project is still young, we need a lot of contributors for improving it. Feel free to join our developer and user community."
-msgstr "Le projet est jeune et nous avons besoin de vos contributions. N'hésitez pas à rejoindre notre communauté de dévellopeurs et d'utilisateurs."
-
-#: text/2.php:9
-#, php-format
-msgid "Open-UDC repository"
-msgstr ""
-
-#: text/2.php:12
-#, php-format
-msgid "Github <a href=\"https://github.com/Open-UDC\">https://github.com/Open-UDC</a>"
-msgstr "Github <a href=\"https://github.com/Open-UDC\">https://github.com/Open-UDC</a>"
-
-#: text/2.php:15
-#, php-format
-msgid "Bug trackers <a href=\"https://github.com/Open-UDC/open-udc/issues\">https://github.com/Open-UDC/open-udc/issues</a>"
-msgstr "Bug trackers <a href=\"https://github.com/Open-UDC/open-udc/issues\">https://github.com/Open-UDC/open-udc/issues</a>"
+#: conf/menu.php:14 conf/top-bar.php:23
+msgid "Contact"
+msgstr "Contact"
 
 #: text/3_conf.php:3
 msgid "Contact OpenUDC team"
@@ -322,107 +163,187 @@ msgstr "Contacter l'équipe OpenUDC"
 msgid "Contact and follow the team"
 msgstr "Contacter et suivre l'équipe"
 
-#: text/3_conf.php:5
-msgid "contribute,developer,contact"
-msgstr "contribuer,developper,contact"
-
 #: text/3.php:3
 #, php-format
 msgid "Contacts"
 msgstr "Contacts"
 
-#: text/3.php:7
-#, php-format
-msgid "Chartroom Jabber/XMPP: \"open-udc@muc.jappix.com\"."
-msgstr "Salon de discussion Jabber/XMPP: \"open-udc@muc.jappix.com\"."
+#: conf/menu.php:13 conf/top-bar.php:22
+msgid "Contribute"
+msgstr "Contribuer"
 
-#: text/3.php:10
+#: text/2_conf.php:3 text/2.php:3
 #, php-format
-msgid "Mailing list \"openudc AT googlegroups DOT com\" <a href=\"https://groups.google.com/forum/#!forum/openudc\">https://groups.google.com/forum/#!forum/openudc</a>."
-msgstr "Mailing list \"openudc AT googlegroups DOT com\" <a href=\"https://groups.google.com/forum/#!forum/openudc\">https://groups.google.com/forum/#!forum/openudc</a>."
+msgid "Contribute to OpenUDC"
+msgstr "Contribuer à OpenUDC"
 
-#: text/3.php:14
+#: text/0.php:11
 #, php-format
-msgid "Chat-room how-to"
-msgstr "Salon de discussion"
+msgid "Convergence of skills OpenUDC"
+msgstr "Convergence de compétences OpenUDC"
+
+#: text/4.php:11
+#, php-format
+msgid ""
+"Create a OpenPGP key with the Open-UDC command line client. Also you can use "
+"\"gpg\" with a special <a href =\"http://node1.openudc.org:11371/udid2/\" "
+">OpenUDC UDID2</a>."
+msgstr ""
+
+#: text/2.php:23
+#, php-format
+msgid "Develop"
+msgstr "Développer "
+
+#: text/0.php:68
+#, php-format
+msgid "Digital coins "
+msgstr "Des pièces de monnaie numériques"
+
+#: text/0.php:71
+#, php-format
+msgid ""
+"Each digital coin is identified in an unique way. It contains the "
+"information of it's date of creation, creation owner (the member who was the "
+"base of that unit creation), and of course the up-to-date owner of that "
+"coin. These digital coins are technically available in different sizes as "
+"powers of 2 : 2^0, or 2^1, or 2^2, 2^3 etc... This choice is due to "
+"optimization of memory space, and also due to growing quantitative monetary "
+"mass. "
+msgstr ""
+"Chaque unité d'échange est identifiée de manière unique, chacune est liée à "
+"un propriétaire unique. Ces \"pièces numériques\" sont techniquement "
+"disponibles en différentes tailles puissances de 2 : 1 2 4 8 16 32.  Ce "
+"choix provient d'un soucis d'optimisation de l'espace de stockage sur les "
+"nœuds."
+
+#: text/0.php:60
+#, php-format
+msgid ""
+"Each member of an OpenUDC money system can have its own node and own copy of "
+"the updated OpenUDC Web of Trust and OpenUDC Monetary Mass. "
+msgstr ""
+"Chaque membre d'une communauté OpenUDC peut avoir son propre nœud, soit une "
+"copie active de la toile de confiance et de la masse monétaire."
+
+#: text/0.php:46
+#, php-format
+msgid "Exchanges"
+msgstr "Les échanges"
+
+#: text/0.php:49
+#, php-format
+msgid ""
+"Exchanges are made directly from person to person in \"digital coins\". The "
+"sender announce to the system the amount and the receiver, he signs it, and "
+"then send it to one node. The node makes a propagation of the information, "
+"and when the whole system fully validate the transaction, the receiver has "
+"the information."
+msgstr ""
+"Les échanges se font directement de personne à personne en \"pièces "
+"numériques\". L'acheteur annonce qu'il veut verser un montant à une "
+"personne, il signe sa demande puis il l'envoie vers un nœud (voir plus bas). "
+"Après validation le destinataire est informé."
+
+#: conf/menu.php:15 conf/top-bar.php:24
+msgid "FAQ"
+msgstr "FAQ"
+
+#: text/4_conf.php:3
+msgid "FAQ OpenUDC"
+msgstr "FAQ OpenUDC"
+
+#: text/0.php:14
+#, php-format
+msgid "Free Money system"
+msgstr "Système de monnaie libre"
+
+#: text/4_conf.php:4 text/4.php:4
+#, php-format
+msgid "Frequently asked questions"
+msgstr "Questions fréquentes"
+
+#: text/4.php:40
+#, php-format
+msgid ""
+"GLUD is a graphical web interface for LUD with a development version here : "
+"http://node1.openudc.org:11371/udid2/ "
+msgstr ""
+
+#: text/1.php:15 text/1.php:59
+#, php-format
+msgid "Get sources"
+msgstr "Obtenir les sources"
+
+#: text/2.php:29
+#, php-format
+msgid ""
+"Github <a href=\"https://github.com/Open-UDC\">https://github.com/Open-UDC</"
+"a>"
+msgstr ""
+"Github <a href=\"https://github.com/Open-UDC\">https://github.com/Open-UDC</"
+"a>"
+
+#: text/2_conf.php:4
+msgid "How to contribute to OpenUDC"
+msgstr "Comment contribuer à OpenUDC"
+
+#: text/1_conf.php:4
+msgid "How to install OpenUDC"
+msgstr "Installer OpenUDC"
+
+#: text/0.php:29
+#, php-format
+msgid "Human P2P network"
+msgstr "Un réseau d'êtres humains"
+
+#: text/4.php:92
+#, php-format
+msgid ""
+"Inflation is only a problem in non-free money system when some individuals "
+"create money for their own benefit and to the detriment of others, and so "
+"the problem is due to that non-free money model."
+msgstr ""
+
+#: text/1.php:3 text/1.php:65 conf/menu.php:12 conf/top-bar.php:21
+#, php-format
+msgid "Install"
+msgstr "Installer"
+
+#: text/1.php:12
+#, php-format
+msgid "Install Lud: OpenUDC command line client"
+msgstr "Installer Lud: client en ligne de commande OpenUDC"
+
+#: text/1_conf.php:3
+msgid "Install OpenUDC"
+msgstr "Installer OpenUDC"
+
+#: text/1.php:50
+#, php-format
+msgid "Install OpenUDC Node (ludd)"
+msgstr "Installer OpenUDC Node (ludd)"
+
+#: text/1.php:37
+#, php-format
+msgid ""
+"It asks you informations (place of birth, date of birth, last name, first "
+"name) in order to generate a unique ID for your key."
+msgstr ""
+"Des informations sont demandées (lieu de naissance, date de naissance, nom, "
+"prénom) afin de créer votre ID unique pour votre clé."
 
 #: text/3.php:17
 #, php-format
 msgid "Join the chat-room at \"open-udc@muc.jappix.com\"."
 msgstr "Rejoindre le salon de discussion sur \"open-udc@muc.jappix.com\"."
 
-#: text/3.php:20
+#: text/4.php:37
 #, php-format
-msgid "You can easily create an XMPP account on <a href=\"https://jappix.com\">https://jappix.com</a> or on any over XMPP provider: <a href=\"http://xmpp.net\">http://xmpp.net</a>."
-msgstr "Vous pouvez créer facilement un compte XMPP sur <a href=\"https://jappix.com\">https://jappix.com</a> ou sur n'importe quel fournisseur XMPP: <a href=\"http://xmpp.net\">http://xmpp.net</a>."
-
-#: text/3.php:23
-#, php-format
-msgid "After you can:"
-msgstr "Après vous pouvez:"
-
-#: text/3.php:27
-#, php-format
-msgid "clicking on Discussion in the bottom right hand corner of the OpenUDC web site;"
-msgstr "cliquer sur Discussion en bas à droite de la page; "
-
-#: text/3.php:30
-#, php-format
-msgid "use a XMPP client like <a href=\"http://gajim.org/\">Gajim</a> or <a href=\"http://psi-plus.com/\">PSI+</a>."
-msgstr "utiliser un client XMPP comme <a href=\"http://gajim.org/\">Gajim</a> ou <a href=\"http://psi-plus.com/\">PSI+</a>."
-
-#: text/4_conf.php:3
-msgid "FAQ OpenUDC"
-msgstr "FAQ OpenUDC"
-
-#: text/4_conf.php:4
-#: text/4.php:4
-#, php-format
-msgid "Frequently asked questions"
-msgstr "Questions fréquentes"
-
-#: text/4_conf.php:5
-msgid "faq,developer,contact"
-msgstr "faq,développer "
-
-#: text/4.php:7
-#, php-format
-msgid "What are the step needed to join an Open-UDC community ?"
-msgstr ""
-
-#: text/4.php:11
-#, php-format
-msgid "Create a OpenPGP key with the Open-UDC command line client. Also you can use \"gpg\" with a special <a href =\"http://node1.openudc.org:11371/udid2/\" >OpenUDC UDID2</a>."
-msgstr ""
-
-#: text/4.php:14
-#, php-format
-msgid "Your key must be signed by 5 or more known yet registered users within the community (at least enough to be valid with GnuPG's default criteria)"
-msgstr ""
-
-#: text/4.php:17
-#, php-format
-msgid "You learn to use LUD or GLUD client to connect to a LUDD node."
-msgstr ""
-
-#: text/4.php:20
-#, php-format
-msgid "You are in."
-msgstr ""
-
-#: text/4.php:24
-#, php-format
-msgid "What mean M, N, c in OpenUDC concepts ?"
-msgstr ""
-
-#: text/4.php:27
-#, php-format
-msgid "M or M(t) means the whole monetary Mass, the sum of all unit coins within the community at the date \"t\". N or N(t) mean the total of registered users inside the community at the date \"t\". The parameter \"c\" is used as the &#37; of monetary mass growth per time unit (ex : &#37; per year or &#37; per month)."
-msgstr ""
-
-#: text/4.php:30
-#, php-format
-msgid "What are LUD, GLUD, LUDD, UDID2 ?"
+msgid ""
+"LUD is the free software OpenUDC standard command line client. LUD means "
+"\"LUD Universal Dividend\" able to connect to a LUDD node. You must install "
+"LUD on your own machine."
 msgstr ""
 
 #: text/4.php:34
@@ -430,30 +351,235 @@ msgstr ""
 msgid "LUDD is the free software that run an OpenUDC P2P node."
 msgstr ""
 
-#: text/4.php:37
+#: text/1.php:47
 #, php-format
-msgid "LUD is the free software OpenUDC standard command line client. LUD means \"LUD Universal Dividend\" able to connect to a LUDD node. You must install LUD on your own machine."
+msgid "Launching the program \"seahorse\" you can see your key."
+msgstr "En lançant le programme \"seahorse\" vous pouvez voir votre clé."
+
+#: text/4.php:27
+#, php-format
+msgid ""
+"M or M(t) means the whole monetary Mass, the sum of all unit coins within "
+"the community at the date \"t\". N or N(t) mean the total of registered "
+"users inside the community at the date \"t\". The parameter \"c\" is used as "
+"the &#37; of monetary mass growth per time unit (ex : &#37; per year or "
+"&#37; per month)."
 msgstr ""
 
-#: text/4.php:40
+#: text/3.php:10
 #, php-format
-msgid "GLUD is a graphical web interface for LUD with a development version here : http://node1.openudc.org:11371/udid2/ "
+msgid ""
+"Mailing list \"openudc AT googlegroups DOT com\" <a href=\"https://groups."
+"google.com/forum/#!forum/openudc\">https://groups.google.com/forum/#!forum/"
+"openudc</a>."
+msgstr ""
+"Mailing list \"openudc AT googlegroups DOT com\" <a href=\"https://groups."
+"google.com/forum/#!forum/openudc\">https://groups.google.com/forum/#!forum/"
+"openudc</a>."
+
+#: text/1.php:30
+#, php-format
+msgid "Now run as normal user:"
+msgstr "Maintenant lancer comme simple utilisateur"
+
+#: text/0.php:26
+#, php-format
+msgid ""
+"OpenUDC allow each community who want to use its own free money to describe "
+"its own Universal Dividend set of rules."
+msgstr "Chaque communauté reste libre de définir ses propres règles."
+
+#: text/0.php:23
+#, php-format
+msgid "OpenUDC development chosen rule is described in the FAQ."
+msgstr ""
+"Les règles de création monétaire choisies par les dévelopeurs sont décrites "
+"dans la FAQ."
+
+#: text/0.php:6
+#, php-format
+msgid ""
+"OpenUDC is a set of free softwares designed to create a free money system "
+"based on a decentralized human P2P network."
+msgstr ""
+"OpenUDC est un ensemble de logiciels libres, élaborés pour créer un système "
+"de monnaie libre, basé sur un réseau humain décentralisé de pair à pair "
+"(P2P)."
+
+#: text/0.php:54
+#, php-format
+msgid "OpenUDC nodes"
+msgstr "Les nœuds"
+
+#: text/0_conf.php:3 text/0.php:3
+#, php-format
+msgid "OpenUDC project"
+msgstr "Projet OpenUDC"
+
+#: text/1.php:53
+#, php-format
+msgid "Prepare depends"
+msgstr "Préparez les dépendances"
+
+#: conf/menu.php:11 conf/top-bar.php:20
+msgid "Project"
+msgstr "Le projet"
+
+#: text/2.php:34
+#, php-format
+msgid "Project structure. Clickable Pictures."
 msgstr ""
 
-#: text/4.php:43
+#: text/1.php:24
 #, php-format
-msgid "UDID2 is OpenUDC information needed to add to OpenPGP keys to become candidate to OpenUDC PGP keys. (see more information in technical specifications for developers)."
+msgid "Run as root"
+msgstr "Lancer comme super-utilisateur"
+
+#: text/4.php:89
+#, php-format
+msgid ""
+"So inflation is not a problem in Universal Dividend money system, because "
+"there is Quantitative creation but not Relative money creation and we count "
+"in number of Universal Dividend, the Relative Unit. "
 msgstr ""
 
-#: text/4.php:47
+#: text/0.php:43
 #, php-format
-msgid "What are the rules of OpenUDC Universal Dividend creation ?"
+msgid ""
+"So there is no center, no centralized organism in an OpenUDC money system."
 msgstr ""
+"Il n'y a pas besoin d'autorité centralisée avec une monnaie basée sur "
+"OpenUDC."
+
+#: text/2.php:43
+#, php-format
+msgid ""
+"Subscribe as translator on Transifex <a href=\"https://www.transifex.com/"
+"signup/contributor/\">https://www.transifex.com/signup/contributor/</a>."
+msgstr ""
+
+#: text/2.php:9
+#, php-format
+msgid "Support"
+msgstr "Supporter"
+
+#: text/0.php:65
+#, php-format
+msgid "Technical choices "
+msgstr "Choix techniques"
+
+#: text/0.php:74
+#, php-format
+msgid ""
+"The OpenUDC digital coins are all in the P2P shared database, and so there "
+"is no possibility for those coins to be lost."
+msgstr ""
+"En cas de perte de vos moyens de payements, un nœud est capable de vous "
+"restituer les pièces qui vous appartiennent."
+
+#: text/0_conf.php:4
+msgid "The OpenUDC free money"
+msgstr "La monnaie libre OpenUDC"
+
+#: text/0.php:34
+#, php-format
+msgid ""
+"The OpenUDC human P2P network is based on <a href=\"http://en.wikipedia.org/"
+"wiki/OpenPGP\">OpenPGP</a>. There is an OpenPGP Web of Trust which identify "
+"the members of one OpenUDC community sharing the same free money."
+msgstr ""
+"OpenUDC s'appuie sur le principe de toile de confiance et sur l'outil  <a "
+"href=\"http://en.wikipedia.org/wiki/OpenPGP\">OpenPGP</a>. "
+
+#: text/0.php:17
+#, php-format
+msgid ""
+"The OpenUDC softwares are designed to manage a free money system as "
+"described by the TRM (Théorie Relative de la Monnaie), that means a money "
+"system where no human has privileges in front of money creation either in "
+"time or in space."
+msgstr ""
+"Les logiciels OpenUDC sont conçus pour mettre en oeuvre une monnaie telle "
+"que la décrit la TRM (Théorie Relative de la Monnaie). Il s'agit d'un "
+"système où chaque homme est égal devant la création monétaire, quelle que "
+"soit son lieu ou son époque."
+
+#: text/2.php:6
+#, php-format
+msgid ""
+"The project is still young, we need a lot of contributors for improving it. "
+"Feel free to join our developer and user community."
+msgstr ""
+"Le projet est jeune et nous avons besoin de vos contributions. N'hésitez pas "
+"à rejoindre notre communauté de dévellopeurs et d'utilisateurs."
 
 #: text/4.php:50
 #, php-format
-msgid "The rules (for the development standard) are defined as a time function UD(t), defined following Relative Money Theory (TRM in french) as a differential dividend : The quantitative dividend must change with only differential (small) adds, reaching in relative amount \"c\" for the average long term growth."
+msgid ""
+"The rules (for the development standard) are defined as a time function "
+"UD(t), defined following Relative Money Theory (TRM in french) as a "
+"differential dividend : The quantitative dividend must change with only "
+"differential (small) adds, reaching in relative amount \"c\" for the average "
+"long term growth."
 msgstr ""
+
+#: text/0.php:9
+#, php-format
+msgid ""
+"The softwares are under <a title=\"WikiPedia\" href=\"http://en.wikipedia."
+"org/wiki/AGPL\">AGPL</a> et <a title=\"WikiPedia\" href=\"http://en."
+"wikipedia.org/wiki/LGPL\">LGPL</a>."
+msgstr ""
+"Les programmes sont sous licences <a title=\"WikiPedia\" href=\"http://en."
+"wikipedia.org/wiki/AGPL\">AGPL</a> et <a title=\"WikiPedia\" href=\"http://"
+"en.wikipedia.org/wiki/LGPL\">LGPL</a>."
+
+#: text/0.php:20
+#, php-format
+msgid ""
+"These money systems solutions are Universal Dividend based money systems. "
+"Every member in the community create (equal to receive) the same Universal "
+"Dividend per period of time. "
+msgstr ""
+"C'est un système monétaire à revenu de base. Chaque membre reçoit la même "
+"quantité de monnaie par intervalle de temps."
+
+#: text/1.php:6
+#, php-format
+msgid "To get all sources"
+msgstr "Obtenir toutes les sources"
+
+#: text/0.php:80
+#, php-format
+msgid ""
+"To obtain an account, it is enough to create it, and then to be signed by a "
+"determined number of existing members. Account will be activated only when "
+"the system rules will be fully OK. Practically you create an OpenUDC WoT "
+"private key, and an OpenUDC WoT public key, associated with a specific "
+"OpenUDC information named UDID2 information. "
+msgstr ""
+"Pour obtenir un compte il suffit de le créer puis de demander à être reconnu "
+"par un ou plusieurs membres actuels de la communauté monétaire. En pratique "
+"on crée une clé privée et une clé publique avec un identifiant \"UDIDI2\" "
+"propre à OpenUDC."
+
+#: text/2.php:40
+#, php-format
+msgid ""
+"To translate, we use Transifex : <a href=\"https://www.transifex.com/"
+"organization/OpenUDC/dashboard\">https://www.transifex.com/organization/"
+"OpenUDC/dashboard</a>."
+msgstr ""
+
+#: text/2.php:37
+#, php-format
+msgid "Translation"
+msgstr ""
+
+#: text/1.php:86
+#, php-format
+msgid "Type the command :"
+msgstr "Tapez la commande:"
 
 #: text/4.php:54
 #, php-format
@@ -465,10 +591,137 @@ msgstr "UD(0) = 100 Q "
 msgid "UD(t+1) = MAX [UD(t) ; c*M(t)/N(t)]"
 msgstr "UD(t+1) = MAX [UD(t) ; c*M(t)/N(t)]"
 
+#: text/4.php:43
+#, php-format
+msgid ""
+"UDID2 is OpenUDC information needed to add to OpenPGP keys to become "
+"candidate to OpenUDC PGP keys. (see more information in technical "
+"specifications for developers)."
+msgstr ""
+
+#: text/2.php:26
+#, php-format
+msgid "Welcome, developer! Fork on github, submit a project, ..."
+msgstr "Bienvenue développeur! Fork sur github, soumets un projet, ..."
+
+#: text/4.php:30
+#, php-format
+msgid "What are LUD, GLUD, LUDD, UDID2 ?"
+msgstr ""
+
+#: text/4.php:47
+#, php-format
+msgid "What are the rules of OpenUDC Universal Dividend creation ?"
+msgstr ""
+
+#: text/4.php:7
+#, php-format
+msgid "What are the step needed to join an Open-UDC community ?"
+msgstr ""
+
+#: text/4.php:24
+#, php-format
+msgid "What mean M, N, c in OpenUDC concepts ?"
+msgstr ""
+
+#: text/0.php:93
+#, php-format
+msgid ""
+"When a node collect a transaction, it informs immediately two other nodes. "
+"Then these others nodes inform two other nodes and so on. It's an "
+"exponential speed. Each node know before the nodes it has to inform. When a "
+"new node connect or disconnect to the system, new communication rules are "
+"automatically calculated."
+msgstr ""
+"Lorsqu'un nœud collecte une transaction il en informe immédiatement deux "
+"autres. Puis chacun informe à son tour deux autres nœuds, et ainsi de suite. "
+"C'est une propagation à vitesse exponentielle. Chaque nœud connaît à "
+"l'avance ceux qu'il doit prévenir. Si un nouveau nœud apparaît, de nouvelles "
+"règles sont calculées automatiquement."
+
+#: text/1.php:40
+#, php-format
+msgid "When your key is generated, it shows a menu. "
+msgstr "Quand votre clé est générée, vous arrivez sur un menu."
+
 #: text/4.php:61
 #, php-format
-msgid "Where \"t\" is the past month. UD(t) is the UD of past month. \"c\" is the minimal &#37; UD growth as defined in the 4th rule. M(t) is the existing monetary mass, and N(t) is the total amount of members. All are values just before calculation of new monthly UD(t+1):"
+msgid ""
+"Where \"t\" is the past month. UD(t) is the UD of past month. \"c\" is the "
+"minimal &#37; UD growth as defined in the 4th rule. M(t) is the existing "
+"monetary mass, and N(t) is the total amount of members. All are values just "
+"before calculation of new monthly UD(t+1):"
 msgstr ""
+
+#: text/4.php:80
+#, php-format
+msgid ""
+"Why OpenUDC contributors say \"there is no inflation\" since we have a "
+"Monetary growth ?"
+msgstr ""
+
+#: text/0.php:83
+#, php-format
+msgid ""
+"With those keys you can access to transactions of your own account, send to "
+"or receive from others. You sign and encrypt a \"digital order\" to send, "
+"and then the node recognise you, and make the job. When it's fully OK, the "
+"receiver has the complete information and some digital coins have change of "
+"owner. Work of the nodes When a node receive an encrypted \"digital order\" "
+"it recognised the sender, and he is able to decrypt it and work on it. The "
+"node makes verifications that the sender is the owner of each digital coins "
+"of the digital order."
+msgstr ""
+"Ensuite pour payer vous émettez un \"bon\" que vous signez (encryptez) à "
+"l'aide de votre clé avant de l'envoyer à un nœud. Techniquement ce bon "
+"contient des pièces numériques choisies arbitrairement parmi celles en votre "
+"possession. Lorsque le nœud  reçoit votre \"bon\" il est capable de le "
+"décrypter. Il atteste ainsi que vous êtes bien son véritable émetteur. Il "
+"vérifie également que vous êtes le propriétaire des pièces indiquées. Si "
+"tout est correct le nœud valide la transaction et les pièces changent de "
+"propriétaire."
+
+#: text/4.php:20
+#, php-format
+msgid "You are in."
+msgstr ""
+
+#: text/1.php:95
+#, php-format
+msgid ""
+"You can check your local adress : http://127.0.0.1:11371/ and so access to "
+"your OpenUDC LUDD node "
+msgstr ""
+"Testez sur votre explorateur l'adresse :  http://127.0.0.1:11371/ et vous "
+"accédez au noeud OpenUDC"
+
+#: text/3.php:20
+#, php-format
+msgid ""
+"You can easily create an XMPP account on <a href=\"https://jappix.com"
+"\">https://jappix.com</a> or on any over XMPP provider: <a href=\"http://"
+"xmpp.net\">http://xmpp.net</a>."
+msgstr ""
+"Vous pouvez créer facilement un compte XMPP sur <a href=\"https://jappix.com"
+"\">https://jappix.com</a> ou auprès de n'importe quel fournisseur XMPP: <a "
+"href=\"http://xmpp.net\">http://xmpp.net</a>."
+
+#: text/4.php:17
+#, php-format
+msgid "You learn to use LUD or GLUD client to connect to a LUDD node."
+msgstr ""
+
+#: text/4.php:14
+#, php-format
+msgid ""
+"Your key must be signed by 5 or more known yet registered users within the "
+"community (at least enough to be valid with GnuPG's default criteria)"
+msgstr ""
+
+#: text/4.php:73
+#, php-format
+msgid "c = ln(40) / 40 = 9&#37; / year."
+msgstr "c = ln(40) / 40 = 9&#37; / an."
 
 #: text/4.php:65
 #, php-format
@@ -477,61 +730,73 @@ msgstr "c = ln(ev:2) / (ev:2)"
 
 #: text/4.php:69
 #, php-format
-msgid "c is defined here as the quantitative average monetary mass growth based on human average life expectancy. For a 80 years average life expectancy we have:"
+msgid ""
+"c is defined here as the quantitative average monetary mass growth based on "
+"human average life expectancy. For a 80 years average life expectancy we "
+"have:"
 msgstr ""
 
-#: text/4.php:73
+#: text/3.php:27
 #, php-format
-msgid "c = ln(40) / 40 = 9&#37; / year."
-msgstr "c = ln(40) / 40 = 9&#37; / an."
+msgid ""
+"clicking on Discussion in the bottom right hand corner of the OpenUDC web "
+"site;"
+msgstr "cliquer sur Discussion en bas à droite de la page; "
 
-#: text/4.php:77
-#, php-format
-msgid "As those rules are parameters of OpenUDC, one community can use OpenUDC with other set of rules. OpenUDC is totally independant of the rules chosen by a money community. "
+#: text/2_conf.php:5
+msgid ""
+"contribute,contributor,open-source,github,developer,develop,program,"
+"programmer"
 msgstr ""
+"contribuer,contributeur,contribution,open-source,libre,github,développer,"
+"développeur"
 
-#: text/4.php:80
+#: text/3_conf.php:5
+msgid "contribute,developer,contact"
+msgstr "contribuer,developper,contact"
+
+#: text/4_conf.php:5
+msgid "faq,openudc"
+msgstr "faq,openudc"
+
+#: text/1_conf.php:5
+msgid "install,openUDC,free money"
+msgstr "installer,openUDC,monnaie libre"
+
+#: text/0_conf.php:5
+msgid "money,free money,digital money,universal dividend money,bitcoin"
+msgstr "monnaie,monnaie libre,monnaie numérique,dividende universel,bitcoin"
+
+#: text/2.php:16
 #, php-format
-msgid "Why OpenUDC contributors say \"there is no inflation\" since we have a Monetary growth ?"
+msgid "organise an event: talk, key signing party, coding party..."
 msgstr ""
+"organiser un événement: présentation, key signing party, coding party..."
 
-#: text/4.php:83
+#: text/2.php:19
 #, php-format
-msgid "Because inflation is a false conclusion due to ignorance relatively to a bad unit of money because the Quantative units of money growth due to Universal Dividend is not the Relative one."
+msgid ""
+"support development team on <a href=\"https://www.gittip.com/OpenUDC/"
+"\">https://www.gittip.com/OpenUDC</a> (waiting a free money!)."
 msgstr ""
+"soutenir l'équipe de développement sur <a href=\"https://www.gittip.com/"
+"OpenUDC/\">https://www.gittip.com/OpenUDC</a> (en attendant une monnaie "
+"libre!)."
 
-#: text/4.php:86
+#: text/2.php:13
 #, php-format
-msgid "An OpenUDC community use the relative unit 1 UD, and not the quantitative 1 Q. So there is still in the money system the same number of money units N / c UD. And then the number of UD money units only depend of the number of members, and the average amount of money per member is always fixed or limited by 1 / c UD."
+msgid ""
+"talk about OpenUDC, post on your blog, add a link <a href=\"http://openudc."
+"org\">http://openudc.org</a> on your website, ..."
 msgstr ""
+"parler d'OpenUDC autour de vous, poster sur votre blog, ajouter un lien <a "
+"href=\"http://openudc.org\">http://openudc.org</a> sur votre site Web, ..."
 
-#: text/4.php:89
+#: text/3.php:30
 #, php-format
-msgid "So inflation is not a problem in Universal Dividend money system, because there is Quantitative creation but not Relative money creation and we count in number of Universal Dividend, the Relative Unit. "
+msgid ""
+"use a XMPP client like <a href=\"http://gajim.org/\">Gajim</a> or <a href="
+"\"http://psi-plus.com/\">PSI+</a>."
 msgstr ""
-
-#: text/4.php:92
-#, php-format
-msgid "Inflation is only a problem in non-free money system when some individuals create money for their own benefit and to the detriment of others, and so the problem is due to that non-free money model."
-msgstr ""
-
-#: conf/menu.php:11
-#: conf/top-bar.php:19
-msgid "Project"
-msgstr "Le projet"
-
-#: conf/menu.php:13
-#: conf/top-bar.php:21
-msgid "Contribute"
-msgstr "Contribuer"
-
-#: conf/menu.php:14
-#: conf/top-bar.php:22
-msgid "Contact"
-msgstr "Contact"
-
-#: conf/menu.php:15
-#: conf/top-bar.php:23
-msgid "FAQ"
-msgstr "FAQ"
-
+"utiliser un client XMPP comme <a href=\"http://gajim.org/\">Gajim</a> ou <a "
+"href=\"http://psi-plus.com/\">PSI+</a>."

@@ -27,7 +27,7 @@
 </g>
 <!-- n1 -->
 <g id="node1" class="node"><title>n1</title>
-<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Command-line-tools" xlink:title="Transaction API\nC\n50%">
+<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Transaction-API" xlink:title="Transaction API\nC\n50%" target="_top" >
 <ellipse fill="white" stroke="#405764" stroke-width="2" cx="851" cy="-588" rx="173.241" ry="79.9031"/>
 <text text-anchor="middle" x="851" y="-613.5" font-family="Times Roman,serif" font-size="30.00">Transaction API</text>
 <text text-anchor="middle" x="851" y="-578.5" font-family="Times Roman,serif" font-size="30.00">C</text>
@@ -36,7 +36,7 @@
 </g>
 <!-- n2 -->
 <g id="node2" class="node"><title>n2</title>
-<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Command-line-tools" xlink:title="Coin management\nC\n90%">
+<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Coin-management" xlink:title="Coin management\nC\n90%" target="_top" >
 <ellipse fill="white" stroke="#405764" stroke-width="2" cx="427" cy="-367" rx="207.889" ry="79.9031"/>
 <text text-anchor="middle" x="427" y="-392.5" font-family="Times Roman,serif" font-size="30.00">Coin management</text>
 <text text-anchor="middle" x="427" y="-357.5" font-family="Times Roman,serif" font-size="30.00">C</text>
@@ -51,7 +51,7 @@
 </g>
 <!-- n3 -->
 <g id="node3" class="node"><title>n3</title>
-<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Command-line-tools" xlink:title="Key Management\nC\n80%">
+<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Key-Management" xlink:title="Key Management\nC\n80%" target="_top" >
 <ellipse fill="white" stroke="#405764" stroke-width="2" cx="851" cy="-367" rx="197.99" ry="79.9031"/>
 <text text-anchor="middle" x="851" y="-392.5" font-family="Times Roman,serif" font-size="30.00">Key Management</text>
 <text text-anchor="middle" x="851" y="-357.5" font-family="Times Roman,serif" font-size="30.00">C</text>
@@ -66,7 +66,7 @@
 </g>
 <!-- n4 -->
 <g id="node4" class="node"><title>n4</title>
-<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Command-line-tools" xlink:title="Inter&#45;node\ncommunication API\nC\n5%">
+<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Inter-node-communication-API" xlink:title="Inter&#45;node\ncommunication API\nC\n5%" target="_top" >
 <ellipse fill="white" stroke="white" stroke-width="2" cx="1282" cy="-367" rx="215.167" ry="104.652"/>
 <text text-anchor="middle" x="1282" y="-410" font-family="Times Roman,serif" font-size="30.00">Inter&#45;node</text>
 <text text-anchor="middle" x="1282" y="-375" font-family="Times Roman,serif" font-size="30.00">communication API</text>
@@ -82,7 +82,7 @@
 </g>
 <!-- n5 -->
 <g id="node5" class="node"><title>n5</title>
-<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Command-line-tools" xlink:title="Web of trust\nauto check\nND\n0%">
+<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Web-of-trust-auto-check" xlink:title="Web of trust\nauto check\nND\n0%" target="_top" >
 <ellipse fill="white" stroke="white" stroke-width="2" cx="851" cy="-121" rx="142.128" ry="104.652"/>
 <text text-anchor="middle" x="851" y="-164" font-family="Times Roman,serif" font-size="30.00">Web of trust</text>
 <text text-anchor="middle" x="851" y="-129" font-family="Times Roman,serif" font-size="30.00">auto check</text>
@@ -103,10 +103,10 @@
 </g>
 <!-- u1 -->
 <g id="node6" class="node"><title>u1</title>
-<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Command-line-tools" xlink:title="Android App\nJava\n0%">
+<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Android-App" xlink:title="Android App\nJava/ND\n0%" target="_top" >
 <ellipse fill="white" stroke="white" stroke-width="2" cx="283" cy="-822" rx="140.007" ry="79.9031"/>
 <text text-anchor="middle" x="283" y="-847.5" font-family="Times Roman,serif" font-size="30.00">Android App</text>
-<text text-anchor="middle" x="283" y="-812.5" font-family="Times Roman,serif" font-size="30.00">Java</text>
+<text text-anchor="middle" x="283" y="-812.5" font-family="Times Roman,serif" font-size="30.00">Java/ND</text>
 <text text-anchor="middle" x="283" y="-777.5" font-family="Times Roman,serif" font-size="30.00">0%</text>
 </a>
 </g>
@@ -118,7 +118,7 @@
 </g>
 <!-- wu1 -->
 <g id="node7" class="node"><title>wu1</title>
-<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Command-line-tools" xlink:title="Web Interface\nND\n0%">
+<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Web-Interface" xlink:title="Web Interface\nND\n0%" target="_top" >
 <ellipse fill="white" stroke="white" stroke-width="2" cx="1383" cy="-1048" rx="160.013" ry="79.9031"/>
 <text text-anchor="middle" x="1383" y="-1073.5" font-family="Times Roman,serif" font-size="30.00">Web Interface</text>
 <text text-anchor="middle" x="1383" y="-1038.5" font-family="Times Roman,serif" font-size="30.00">ND</text>
@@ -127,7 +127,7 @@
 </g>
 <!-- cgi -->
 <g id="node11" class="node"><title>cgi</title>
-<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Command-line-tools" xlink:title="Fast CGI\nPython/ND\n0%">
+<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Fast-CGI" xlink:title="Fast CGI\nPython/ND\n0%" target="_top" >
 <ellipse fill="white" stroke="white" stroke-width="2" cx="1365" cy="-822" rx="123.951" ry="79.9031"/>
 <text text-anchor="middle" x="1365" y="-847.5" font-family="Times Roman,serif" font-size="30.00">Fast CGI</text>
 <text text-anchor="middle" x="1365" y="-812.5" font-family="Times Roman,serif" font-size="30.00">Python/ND</text>
@@ -142,7 +142,7 @@
 </g>
 <!-- lu1 -->
 <g id="node8" class="node"><title>lu1</title>
-<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Command-line-tools" xlink:title="Command line tools\nBash/C\n40%">
+<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Command-line-tools" xlink:title="Command line tools\nBash/C\n40%" target="_top" >
 <ellipse fill="white" stroke="white" stroke-width="2" cx="976" cy="-1048" rx="222.946" ry="79.9031"/>
 <text text-anchor="middle" x="976" y="-1073.5" font-family="Times Roman,serif" font-size="30.00">Command line tools</text>
 <text text-anchor="middle" x="976" y="-1038.5" font-family="Times Roman,serif" font-size="30.00">Bash/C</text>
@@ -157,7 +157,7 @@
 </g>
 <!-- lu2 -->
 <g id="node9" class="node"><title>lu2</title>
-<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Command-line-tools" xlink:title="Library\nPython/ND\n0%">
+<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Library" xlink:title="Library\nPython/ND\n0%" target="_top" >
 <ellipse fill="white" stroke="white" stroke-width="2" cx="824" cy="-822" rx="123.951" ry="79.9031"/>
 <text text-anchor="middle" x="824" y="-847.5" font-family="Times Roman,serif" font-size="30.00">Library</text>
 <text text-anchor="middle" x="824" y="-812.5" font-family="Times Roman,serif" font-size="30.00">Python/ND</text>
@@ -178,7 +178,7 @@
 </g>
 <!-- lu3 -->
 <g id="node10" class="node"><title>lu3</title>
-<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Command-line-tools" xlink:title="Desktop GUI\nND\n0%">
+<a xlink:href="https://github.com/Open-UDC/open-udc/wiki/Desktop-GUI" xlink:title="Desktop GUI\nND\n0%" target="_top" >
 <ellipse fill="white" stroke="white" stroke-width="2" cx="591" cy="-1048" rx="144.25" ry="79.9031"/>
 <text text-anchor="middle" x="591" y="-1073.5" font-family="Times Roman,serif" font-size="30.00">Desktop GUI</text>
 <text text-anchor="middle" x="591" y="-1038.5" font-family="Times Roman,serif" font-size="30.00">ND</text>

@@ -66,7 +66,20 @@ function get_image($im,$ext,$width,$coment){
 	print $result;
 
 }
+function get_image2($im,$ext,$width,$coment){
 
+	$file = $im .'.'. $ext;
+
+	$result = ' <div class="polaroid align-center"><img src="';
+	$result .= $file .'"';
+	$result .= ' width="'. $width .'"';	
+	$result .= ' ><div class="fig_comment">';
+	$result .= $coment;
+	$result .= ' </div></div>';
+
+	print $result;
+
+}
 // get_image_in_langage("src/pay2","svg","80%","A donne de l'argent à B (transaction mode2)")
 // <div class="polaroid align-center"><object data="src/pay1_fr.svg" width="80%" type="image/svg+xml"></object><div class="fig_comment">A donne de l'argent à B (transaction mode1)</div></div>
 // <div class="polaroid align-center"><object width="80%" type="image/svg+xml" data="src/pay1_en.svg"/>	<div class="fig_comment">A donne de l'argent à B (transaction mode1) </div></div>
@@ -147,7 +160,7 @@ echo '
 echo '
 			<div class="span3">
 				<div class="align-center" >
-					<a href="index.php_'. $_SESSION['lg'] .'"><img src="img/logo-open-udc.svg" alt="Logo"  width="80%" /></a><br/>
+					<a href="index_'. $_SESSION['lg'] .'.php"><img src="img/logo-open-udc.svg" alt="Logo"  width="80%" /></a><br/>
 					<img src="img/open-udc-text.svg" alt="Text"  width="80%" /><br/><br/>
 					<img src="img/open-udc-slogan.svg" alt="Slogan"  width="80%" />
 

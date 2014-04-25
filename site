@@ -7,27 +7,19 @@
 # xgettext --from-code=UTF-8 -o messages.pot *.php
 #  msgmerge -s -U oriya.po hello-new.pot
 
+xlg="fr,en"
 
-
-if [[ ! $1 ]]; then
-	echo "Nom du fichier en argument"
-	echo "bash site XX.lyx"
+if [[ ! -f  site.lyx ]]; then
+	echo "Error: site.lyx file not exist"
 	exit 
 fi
 
-if [[ $2 ]]; then
-xlg=$2
-else
-	echo "Nom des langues forcé, en en premier"
-	echo "bash site XX.lyx en,fr,sp"
-	exit
-fi
 
 mkdir -p ./text
 
-#LG=$(echo ${1} | awk -F"." '{print $1}' | awk -F"_" '{print $2}')
+#LG=$(echo site.lyx | awk -F"." '{print $1}' | awk -F"_" '{print $2}')
 
-cat ${1} | awk -v xlg="${xlg}" '
+cat site.lyx | awk -v xlg="${xlg}" '
 BEGIN{
 
 section=0
@@ -284,6 +276,7 @@ split(mem,memm,"=")
 mkdir -p locale
 xgettext --from-code=UTF-8 -o ./locale/messages.pot ./text/*.php ./conf/*.php
 msgmerge -s -U locale/fr_FR/LC_MESSAGES/message.po ./locale/messages.pot
+cp ./locale/messages.pot ./messages.pot
 #msgmerge -s -U locale/sp_SP/LC_MESSAGES/message.po ./locale/messages.pot
 
 

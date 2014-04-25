@@ -2,7 +2,8 @@
 
 
 
-echo '<div class="top-bar">
+echo '
+<div class="top-bar">
 	<div class="container">
 		<div class="row">
 			<div class="span3 align-left" >

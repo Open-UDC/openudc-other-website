@@ -485,7 +485,29 @@ The project is still young, we need a lot of contributors for improving
 \end_layout
 
 \begin_layout Subsubsection
-Open-UDC repository
+Support
+\end_layout
+
+\begin_layout Itemize
+talk about OpenUDC, post on your blog, add a link <a href="http://openudc.org">ht
+tp://openudc.org</a> on your website, ...
+\end_layout
+
+\begin_layout Itemize
+organise an event: talk, key signing party, coding party...
+\end_layout
+
+\begin_layout Itemize
+support development team on <a href="https://www.gittip.com/OpenUDC/">https://www.g
+ittip.com/OpenUDC</a> (waiting a free money!).
+\end_layout
+
+\begin_layout Subsubsection
+Develop
+\end_layout
+
+\begin_layout Standard
+Welcome, developer! Fork on github, submit a project, ...
 \end_layout
 
 \begin_layout Standard
@@ -495,6 +517,34 @@ Github <a href="https://github.com/Open-UDC">https://github.com/Open-UDC</a>
 \begin_layout Standard
 Bug trackers <a href="https://github.com/Open-UDC/open-udc/issues">https://github.
 com/Open-UDC/open-udc/issues</a>
+\end_layout
+
+\begin_layout Quotation
+$coment=sprintf(_("Project structure.
+ Clickable Picture."));
+\end_layout
+
+\begin_layout Quotation
+get_image("graph/structure","svg","80%",$coment );
+\end_layout
+
+\begin_layout Subsubsection
+Translation
+\end_layout
+
+\begin_layout Standard
+To translate, we use Transifex : <a href="https://www.transifex.com/organization/O
+penUDC/dashboard">https://www.transifex.com/organization/OpenUDC/dashboard</a>.
+\end_layout
+
+\begin_layout Standard
+Subscribe as translator on Transifex <a href="https://www.transifex.com/signup/con
+tributor/">https://www.transifex.com/signup/contributor/</a>.
+\end_layout
+
+\begin_layout Standard
+Ask to join a team for each project and each language, or ask for a new
+ language.
 \end_layout
 
 \begin_layout Section

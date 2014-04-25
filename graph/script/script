@@ -4,8 +4,6 @@
 
 type="svg"
 
-mkdir -p output
-
 # Compute graphs without text to translate
 dot -T${type} mens.dot -o ../mens.${type}
 #convert -geometry  800  ../mens.${type}  ../mens.jpg
@@ -16,6 +14,20 @@ dot -T${type} node2.dot -o ../node2.${type}
 dot -T${type} node3.dot -o ../node3.${type}
 dot -T${type} node4.dot -o ../node4.${type}
 dot -T${type} node5.dot -o ../node5.${type}
+
+dot -T${type} structure.dot -o ../zstructure.${type}
+cat ../zstructure.${type} | awk '{
+	if ($0 ~ /^<a xlink:href=/){
+		a=$0
+		gsub(/>$/," target=\"_top\" >",a)
+		print a
+	}
+	else {
+		print $0
+	}
+}' > ../structure.${type}
+rm ../zstructure.${type}
+
 for L in $(ls -1 lang/*);do
 
 	lang=$(basename "${L}")

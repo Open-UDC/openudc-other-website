@@ -4,15 +4,13 @@
 #
 # Translators:
 # Openz <openz@laposte.net>, 2013
-# Openz <openz@laposte.net>, 2013
-# Sly <waxsly@hotmail.com>, 2013
 # Sly <waxsly@hotmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: openudc-other-website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-25 13:51+0200\n"
-"PO-Revision-Date: 2013-12-14 13:50+0100\n"
+"POT-Creation-Date: 2013-12-14 13:04+0100\n"
+"PO-Revision-Date: 2013-12-01 22:09+0100\n"
 "Last-Translator: Pierro <openz@laposte.net>\n"
 "Language-Team: French (France) (http://www.transifex.com/projects/p/openudc-"
 "other-website/language/fr_FR/)\n"
@@ -102,13 +100,6 @@ msgid ""
 "money community. "
 msgstr ""
 
-#: text/2.php:46
-#, php-format
-msgid ""
-"Ask to join a team for each project and each language, or ask for a new "
-"language."
-msgstr ""
-
 #: text/4.php:83
 #, php-format
 msgid ""
@@ -151,7 +142,7 @@ msgstr "Choisir 1 pour envoyer votre clé vers un nœud OpenUDC"
 msgid "Communication between nodes"
 msgstr "Communication entre les nœuds"
 
-#: conf/menu.php:14 conf/top-bar.php:23
+#: conf/menu.php:14 conf/top-bar.php:22
 msgid "Contact"
 msgstr "Contact"
 
@@ -168,7 +159,7 @@ msgstr "Contacter et suivre l'équipe"
 msgid "Contacts"
 msgstr "Contacts"
 
-#: conf/menu.php:13 conf/top-bar.php:22
+#: conf/menu.php:13 conf/top-bar.php:21
 msgid "Contribute"
 msgstr "Contribuer"
 
@@ -193,7 +184,7 @@ msgstr ""
 #: text/2.php:23
 #, php-format
 msgid "Develop"
-msgstr "Développer "
+msgstr ""
 
 #: text/0.php:68
 #, php-format
@@ -245,7 +236,7 @@ msgstr ""
 "personne, il signe sa demande puis il l'envoie vers un nœud (voir plus bas). "
 "Après validation le destinataire est informé."
 
-#: conf/menu.php:15 conf/top-bar.php:24
+#: conf/menu.php:15 conf/top-bar.php:23
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -305,7 +296,7 @@ msgid ""
 "the problem is due to that non-free money model."
 msgstr ""
 
-#: text/1.php:3 text/1.php:65 conf/menu.php:12 conf/top-bar.php:21
+#: text/1.php:3 text/1.php:65 conf/menu.php:12 conf/top-bar.php:20
 #, php-format
 msgid "Install"
 msgstr "Installer"
@@ -421,14 +412,9 @@ msgstr "Projet OpenUDC"
 msgid "Prepare depends"
 msgstr "Préparez les dépendances"
 
-#: conf/menu.php:11 conf/top-bar.php:20
+#: conf/menu.php:11 conf/top-bar.php:19
 msgid "Project"
 msgstr "Le projet"
-
-#: text/2.php:34
-#, php-format
-msgid "Project structure. Clickable Picture."
-msgstr ""
 
 #: text/1.php:24
 #, php-format
@@ -451,17 +437,10 @@ msgstr ""
 "Il n'y a pas besoin d'autorité centralisée avec une monnaie basée sur "
 "OpenUDC."
 
-#: text/2.php:43
-#, php-format
-msgid ""
-"Subscribe as translator on Transifex <a href=\"https://www.transifex.com/"
-"signup/contributor/\">https://www.transifex.com/signup/contributor/</a>."
-msgstr ""
-
 #: text/2.php:9
 #, php-format
 msgid "Support"
-msgstr "Supporter"
+msgstr ""
 
 #: text/0.php:65
 #, php-format
@@ -563,19 +542,6 @@ msgstr ""
 "on crée une clé privée et une clé publique avec un identifiant \"UDIDI2\" "
 "propre à OpenUDC."
 
-#: text/2.php:40
-#, php-format
-msgid ""
-"To translate, we use Transifex : <a href=\"https://www.transifex.com/"
-"organization/OpenUDC/dashboard\">https://www.transifex.com/organization/"
-"OpenUDC/dashboard</a>."
-msgstr ""
-
-#: text/2.php:37
-#, php-format
-msgid "Translation"
-msgstr ""
-
 #: text/1.php:86
 #, php-format
 msgid "Type the command :"
@@ -602,7 +568,7 @@ msgstr ""
 #: text/2.php:26
 #, php-format
 msgid "Welcome, developer! Fork on github, submit a project, ..."
-msgstr "Bienvenue développeur! Fork sur github, soumets un projet, ..."
+msgstr ""
 
 #: text/4.php:30
 #, php-format
@@ -771,17 +737,15 @@ msgstr "monnaie,monnaie libre,monnaie numérique,dividende universel,bitcoin"
 #, php-format
 msgid "organise an event: talk, key signing party, coding party..."
 msgstr ""
-"organiser un événement: présentation, key signing party, coding party..."
 
 #: text/2.php:19
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "support development team on <a href=\"https://www.gittip.com/OpenUDC/"
 "\">https://www.gittip.com/OpenUDC</a> (waiting a free money!)."
 msgstr ""
-"soutenir l'équipe de développement sur <a href=\"https://www.gittip.com/"
-"OpenUDC/\">https://www.gittip.com/OpenUDC</a> (en attendant une monnaie "
-"libre!)."
+"Github <a href=\"https://github.com/Open-UDC\">https://github.com/Open-UDC</"
+"a>"
 
 #: text/2.php:13
 #, php-format
@@ -789,8 +753,6 @@ msgid ""
 "talk about OpenUDC, post on your blog, add a link <a href=\"http://openudc."
 "org\">http://openudc.org</a> on your website, ..."
 msgstr ""
-"parler d'OpenUDC autour de vous, poster sur votre blog, ajouter un lien <a "
-"href=\"http://openudc.org\">http://openudc.org</a> sur votre site Web, ..."
 
 #: text/3.php:30
 #, php-format
@@ -800,3 +762,6 @@ msgid ""
 msgstr ""
 "utiliser un client XMPP comme <a href=\"http://gajim.org/\">Gajim</a> ou <a "
 "href=\"http://psi-plus.com/\">PSI+</a>."
+
+#~ msgid "faq,developer,contact"
+#~ msgstr "faq,développer "

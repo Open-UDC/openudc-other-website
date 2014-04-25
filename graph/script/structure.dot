@@ -1,0 +1,149 @@
+digraph G { 
+
+
+node [shape=ellipse,style=filled,fontsize=30,color=white,fillcolor=white,penwidth=2];
+edge [color="#405764",fontcolor="#405764",fontsize=25,penwidth=3,arrowsize=1.7,dir=both];
+ordering=out;
+#nodesep=1.5;
+
+
+
+
+n1[
+label="Transaction API\nC\n50%"
+URL="https://github.com/Open-UDC/open-udc/wiki/Transaction-API"
+color="#405764"
+];
+n2[
+label="Coin management\nC\n90%"
+URL="https://github.com/Open-UDC/open-udc/wiki/Coin-management"
+color="#405764"
+];
+n3[
+label="Key Management\nC\n80%"
+URL="https://github.com/Open-UDC/open-udc/wiki/Key-Management"
+color="#405764"
+];
+n4[
+label="Inter-node\ncommunication API\nC\n5%"
+URL="https://github.com/Open-UDC/open-udc/wiki/Inter-node-communication-API"
+];
+n5[
+label="Web of trust\nauto check\nND\n0%"
+URL="https://github.com/Open-UDC/open-udc/wiki/Web-of-trust-auto-check"
+];
+
+u1[
+label="Android App\nJava/ND\n0%"
+URL="https://github.com/Open-UDC/open-udc/wiki/Android-App"
+];
+
+
+wu1[
+label="Web Interface\nND\n0%"
+URL="https://github.com/Open-UDC/open-udc/wiki/Web-Interface"
+];
+
+
+
+
+
+
+lu1[
+label="Command line tools\nBash/C\n40%"
+URL="https://github.com/Open-UDC/open-udc/wiki/Command-line-tools"
+];
+
+lu2[
+label="Library\nPython/ND\n0%"
+URL="https://github.com/Open-UDC/open-udc/wiki/Library"
+];
+
+lu3[
+label="Desktop GUI\nND\n0%"
+URL="https://github.com/Open-UDC/open-udc/wiki/Desktop-GUI"
+];
+
+
+cgi[
+label="Fast CGI\nPython/ND\n0%"
+URL="https://github.com/Open-UDC/open-udc/wiki/Fast-CGI"
+];
+subgraph cluster_1 
+{
+label="Node";
+fontsize = "35";
+labeljust = "l";
+style=filled;
+color= "#ade6bf";
+
+n1->n2[penwidth=5]
+n1->n3[penwidth=5]
+#n2->n1
+n1->n4
+#n4->n1
+
+
+
+n4->n4
+n3->n5[dir=forward]
+}
+
+
+#subgraph cluster_11
+##{
+#
+#label="";
+#fontsize = "35";
+#labeljust = "l";
+#style=filled;
+#color= "#ade6bf";
+#cgi
+#}
+
+subgraph cluster_2 
+{
+
+label="Web User Tools";
+fontsize = "35";
+labeljust = "l";
+style=filled;
+color="#b1ade6";
+wu1-> cgi
+}
+
+subgraph cluster_3 
+{
+
+label="Destktop User Tools";
+fontsize = "35";
+labeljust = "l";
+style=filled;
+color="#adc4e6";
+lu1
+lu3->lu2
+lu1->lu2
+}
+subgraph cluster_4
+{
+
+label="Smartphone User Tools";
+fontsize = "35";
+labeljust = "l";
+style=filled;
+color="#7c93a0"
+u1
+}
+
+
+
+cgi-> n1
+
+u1 -> n1
+
+lu1-> n1
+lu2-> n1
+}
+
+
+#splines=curved 
